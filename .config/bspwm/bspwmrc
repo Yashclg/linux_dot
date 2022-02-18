@@ -29,8 +29,8 @@ bspc config focus_follows_pointer 	true
 ###---Monitor And Desktop Settings----###
 bspc config top_padding 		30
 bspc config bottom_padding 		0
-bspc config left_padding 		0
-bspc config right_padding 		0
+bspc config left_padding 		10
+bspc config right_padding 		10
 bspc config border_width 		1
 bspc config window_gap 			8
 #bspc config pointer_action1 		move
@@ -43,4 +43,3 @@ bspc rule -a alacritty desktop='^1'
 bspc rule -a brave desktop='^2'
 bspc rule -a Gimp state=floating 
 bspc rule -a photoshop state=floating
-

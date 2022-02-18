@@ -167,6 +167,8 @@ menu-0-0 = ""
 menu-0-0-exec = systemctl reboot
 menu-0-1 = ""
 menu-0-1-exec = systemctl poweroff
+menu-0-2 = ""
+menu-0-2-exec = killall -q bspwm
 
 [settings]
 screenchange-reload = true

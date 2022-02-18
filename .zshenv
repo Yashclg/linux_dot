@@ -20,4 +20,3 @@ PATH="$PATH:/$HOME/.scripts"
 ZDOTDIR=$HOME/.config/zsh
 export XINITRC="$XDG_CONFIG_HOME"/X11/xinitrc
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:="$HOME/.config"}
-
