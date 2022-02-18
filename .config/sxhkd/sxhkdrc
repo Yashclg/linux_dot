@@ -126,8 +126,8 @@ super + {v,p,r}
 	$TERMINAL -e {nvim,htop,ranger}
 
 super + space
-	rofi -show run -theme gruvbox-dark-hard.rasi
-	#dmenu_run -p "Run   :"
+	dmenu_run -p "Run   :"
+	#rofi -show run -theme gruvbox-dark-hard.rasi
 	
 super + shift + Return
 	rofi -show drun -theme gruvbox-dark-hard.rasi -icon-theme "Tela-circle" -show-icons
