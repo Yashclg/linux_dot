@@ -1,0 +1,177 @@
+
+#		     _       _
+#	 _ __   ___ | |_   _| |__   __ _ _ __
+#	| '_ \ / _ \| | | | | '_ \ / _` | '__|
+#	| |_) | (_) | | |_| | |_) | (_| | |
+#	| .__/ \___/|_|\__, |_.__/ \__,_|_|
+#	|_|            |___/
+
+
+[colors]
+background = #c0020202
+background-alt = #020202
+foreground = #fbf1c7
+foreground-alt = #fbf1c7
+gray = #808080
+red = #fb4934
+green = #b8bb26
+yellow = #fabd2f
+blue = #83a598
+magenta = #d3869b
+cyan = #8ec07c
+orange = #fe8019
+
+[bar/mybar]
+width = 100%
+height = 32
+fixed-center = true
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+padding-left = 4
+padding-right = 2
+module-margin-left = 1
+module-margin-right = 1
+
+font-0 = Montserrat:weight=SemiBold:size=10;2
+font-1 = Hack Nerd Font:size=11;2
+font-2 = Montserrat:weight=Medium:size=10;2
+
+modules-left = polyMenu title
+modules-center = bspwm
+modules-right = wallpaper screenShot colorPick wlan xbacklight audio battery date powermenu
+
+wm-restack = bspwm
+;override-redirect = true
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[module/bspwm]
+type = internal/bspwm
+
+label-focused = 
+label-focused-foreground = #d79921
+label-occupied = 
+label-urgent = 
+label-empty = 
+label-empty-foreground = #665c54
+label-separator = " "
+label-separator-padding = 1
+
+[module/polyMenu]
+type = custom/menu
+expand-right = true
+format-spacing = 2
+label-open = ""
+label-close = ""
+label-open-padding-right = 2
+label-separator = " "
+menu-0-0 = ""
+menu-0-0-exec = ~/.config/polybar/launch.sh &
+menu-0-1 = "  PolyConfig   |"
+menu-0-1-exec = $TERMINAL nvim ~/.config/polybar/config
+
+[module/title]
+type = internal/xwindow
+label = %title:0:30:...%
+label-empty = Arch Linux
+label-maxlen = 50
+
+[module/wallpaper]
+type = custom/script
+exec = echo ""
+click-left = wallpaper.sh
+
+[module/screenShot]
+type = custom/script
+exec = echo ""
+click-left = "flameshot screen -p /home/sdk/Pictures/Screenshot"
+click-right = "flameshot gui"
+
+[module/colorPick]
+type = custom/script
+exec = echo ""
+click-left = "gpick"
+
+[module/wlan]
+type = internal/network
+interface = wlp0s20f3 
+interval = 3.0
+format-connected = <ramp-signal> 
+format-disconnected = 睊
+ramp-signal-0 = !直
+ramp-signal-1 = 直
+ramp-signal-2 = 直
+ramp-signal-3 = 直
+ramp-signal-4 = 直
+
+[module/xbacklight]
+type = internal/xbacklight
+format = <label> 
+label =  %percentage%%
+label-padding-left = 2
+
+[module/audio]
+type = internal/pulseaudio
+format-volume = <label-volume> 
+label-volume =  墳 %percentage%%
+label-volume-padding-left = 2
+label-volume-foreground = ${root.foreground}
+label-muted = "婢 0%"
+label-muted-padding-left = 2
+click-middle = "pavucontrol"
+
+[module/battery]
+type = internal/battery
+battery = BAT1
+adapter = ACAD
+full-at = 98
+format-charging = <animation-charging> <label-charging>
+format-charging-padding = 2
+format-discharging = <animation-discharging> <label-discharging>
+format-discharging-padding = 2
+format-full-prefix = " "
+format-full-prefix-foreground = #fbf1c7
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-foreground = #fbf1c7
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-foreground = #fbf1c7
+animation-charging-framerate = 750
+animation-discharging-0 = 
+animation-discharging-1 = 
+animation-discharging-2 = 
+animation-discharging-foreground = #fbf1c7
+animation-discharging-framerate = 750
+
+[module/date]
+type = internal/date
+interval = 5
+date = %a, %b %d
+time = %I:%M 
+label = %date% %time%
+label-padding-right = 
+
+[module/powermenu]
+type = custom/menu
+expand-right = false
+format-spacing = 2
+label-open = ""
+label-close = ""
+label-separator = " "
+menu-0-0 = ""
+menu-0-0-exec = systemctl reboot
+menu-0-1 = ""
+menu-0-1-exec = systemctl poweroff
+
+[settings]
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+;pseudo-transparency = false [global/wm] margin-top = 5 margin-bottom = 5 vim:set ft=dosini:
