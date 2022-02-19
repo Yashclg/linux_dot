@@ -29,7 +29,7 @@ super + f
 
 #Toogle Gaps
 super + shift + g
-	window_gap.sh
+	bspwm_window_gap.sh 
 	
 # focus the node in the given direction
 super + {_,shift + }{h,j,k,l}

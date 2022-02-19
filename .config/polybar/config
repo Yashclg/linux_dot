@@ -21,7 +21,7 @@ magenta = #d3869b
 cyan = #8ec07c
 orange = #fe8019
 
-[bar/mybar]
+[bar/bspwm]
 width = 100%
 height = 32
 fixed-center = true
@@ -37,7 +37,7 @@ font-0 = Montserrat:weight=SemiBold:size=10;2
 font-1 = Hack Nerd Font:size=11;2
 font-2 = Montserrat:weight=Medium:size=10;2
 
-modules-left = polyMenu title
+modules-left = Menu title
 modules-center = bspwm
 modules-right = wallpaper screenShot colorPick wlan xbacklight audio battery date powermenu
 
@@ -59,7 +59,7 @@ label-empty-foreground = #665c54
 label-separator = " "
 label-separator-padding = 1
 
-[module/polyMenu]
+[module/Menu]
 type = custom/menu
 expand-right = true
 format-spacing = 2
@@ -129,24 +129,20 @@ adapter = ACAD
 full-at = 98
 format-charging = <animation-charging> <label-charging>
 format-charging-padding = 2
-format-discharging = <animation-discharging> <label-discharging>
+format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-padding = 2
 format-full-prefix = " "
-format-full-prefix-foreground = #fbf1c7
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
-ramp-capacity-foreground = #fbf1c7
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
 animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-foreground = #fbf1c7
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
 animation-charging-framerate = 750
-animation-discharging-0 = 
-animation-discharging-1 = 
-animation-discharging-2 = 
-animation-discharging-foreground = #fbf1c7
-animation-discharging-framerate = 750
 
 [module/date]
 type = internal/date
