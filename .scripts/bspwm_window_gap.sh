@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 gap=$(bspc config window_gap)
 lpad=$(bspc config left_padding) 

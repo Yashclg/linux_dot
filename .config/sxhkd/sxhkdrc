@@ -15,6 +15,10 @@ super + shift + c
 super + Escape
 	pkill -USR1 -x sxhkd
 
+#Setting Wallpaper
+Insert
+	wallpaper.sh
+
 # set the window state
 #super + {t,shift + t,s,f}
 	#bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
@@ -28,7 +32,7 @@ super + f
 	bspc node focused.tiled -t fullscreen || bspc node focused.fullscreen -t tiled
 
 #Toogle Gaps
-super + shift + g
+super + shift + equal
 	bspwm_window_gap.sh 
 	
 # focus the node in the given direction
@@ -122,9 +126,6 @@ super + m
 super + n
 	nemo
 
-super + {v,p,r}
-	$TERMINAL -e {nvim,htop,ranger}
-
 super + space
 	dmenu_run -p "Run   :"
 	#rofi -show run -theme gruvbox-dark-hard.rasi
@@ -135,10 +136,14 @@ super + shift + Return
 # terminal emulator
 super + Return
 	$TERMINAL
+ 
+# ScratchPads with tdrop
+super + v
+	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 0 $TERMINAL -e nvim
 
-super + alt + Return
-	tdrop -ma -w 1916 -y 0 $TERMINAL
+super + p
+	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 1 $TERMINAL -e htop
 
-#Wallpaper
-Insert
-	wallpaper.sh
+super + r
+	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 2 $TERMINAL -e ranger
+
