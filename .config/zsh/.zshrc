@@ -93,8 +93,7 @@ alias grep='grep --color=auto'
 alias stimeshift='sudo timeshift-gtk'
 alias etcher='sudo etcher'
 alias smci='sudo make clean install'
-alias clock='tty-clock -c -t -s'
-alias clock='tty-clock -c -s -t -B -C 4'
+alias clock='tty-clock -c -s -t -B -C 7'
 alias reflectorM='reflector --age 6 --latest 21 --fastest 21 --threads 21 --sort rate --protocol https --save /etc/pacman.d/mirrorlist'
 
 # Extracting Files

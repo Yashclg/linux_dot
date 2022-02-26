@@ -33,7 +33,7 @@ super + f
 
 #Toogle Gaps
 super + shift + equal
-	bspwm_window_gap.sh 
+	$HOME/.config/bspwm/bin/toogle_gaps.sh
 	
 # focus the node in the given direction
 super + {_,shift + }{h,j,k,l}
@@ -147,3 +147,5 @@ super + p
 super + r
 	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 2 $TERMINAL -e ranger
 
+super + c
+	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 3 $TERMINAL -e tty-clock -c -s -t -B -C 7

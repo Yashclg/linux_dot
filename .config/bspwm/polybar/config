@@ -120,7 +120,7 @@ label-volume-padding-left = 2
 label-volume-foreground = ${root.foreground}
 label-muted = "婢 0%"
 label-muted-padding-left = 2
-click-middle = "pavucontrol"
+click-right = "$TERMINAL -e pulsemixer"
 
 [module/battery]
 type = internal/battery
