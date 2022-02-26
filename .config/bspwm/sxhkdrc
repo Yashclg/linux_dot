@@ -17,7 +17,7 @@ super + Escape
 
 #Setting Wallpaper
 Insert
-	wallpaper.sh
+	$HOME/.config/bspwm/bin/wallpaper.sh
 
 # set the window state
 #super + {t,shift + t,s,f}

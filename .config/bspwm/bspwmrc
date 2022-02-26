@@ -1,4 +1,5 @@
-#! /bin/sh
+#!/bin/sh
+
 #	 _
 #	| |__  ___ _ ____      ___ __ ___  _ __ ___
 #	| '_ \/ __| '_ \ \ /\ / / '_ ` _ \| '__/ __|
@@ -6,23 +7,23 @@
 #	|_.__/|___/ .__/ \_/\_/ |_| |_| |_|_|  \___|
 #	          |_|
 
-#Set Wallpaper
-feh --recursive --randomize --bg-fill /home/sdk/Pictures/wallpapers
-
 #Polybar
 exec $HOME/.config/bspwm/bin/launchBar.sh &
-
-#Fix Cursor
-xsetroot -cursor_name left_ptr &
 
 #Start Hotkey Deamon
 sxhkd -c $HOME/.config/bspwm/sxhkdrc &
 
-#Notification
-dunst -config $HOME/.config/bspwm/dunstrc &
-
 #Compositor
 picom --config $HOME/.config/bspwm/picom.conf --experimental-backends &
+
+#Set Wallpaper
+exec $HOME/.config/bspwm/bin/wallpaper.sh &
+
+#Fix Cursor
+xsetroot -cursor_name left_ptr &
+
+#Notification
+dunst -config $HOME/.config/bspwm/dunstrc &
 
 # Settings
 bspc monitor -d I II III IV V VI VII VIII IX X
