@@ -8,7 +8,7 @@
 #	          |_|
 
 #Polybar
-exec $HOME/.config/bspwm/bin/launchBar.sh &
+exec $HOME/.config/bspwm/scripts/launchBar.sh &
 
 #Start Hotkey Deamon
 sxhkd -c $HOME/.config/bspwm/sxhkdrc &
@@ -17,7 +17,7 @@ sxhkd -c $HOME/.config/bspwm/sxhkdrc &
 picom --config $HOME/.config/bspwm/picom.conf --experimental-backends &
 
 #Set Wallpaper
-exec $HOME/.config/bspwm/bin/wallpaper.sh &
+exec $HOME/.config/bspwm/scripts/wallpaper.sh &
 
 #Fix Cursor
 xsetroot -cursor_name left_ptr &

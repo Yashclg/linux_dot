@@ -1,3 +1,5 @@
+#!/bin/sh
+
 #	 _____  _| |__ | | ____| |_ __ ___
 #	/ __\ \/ / '_ \| |/ / _` | '__/ __|
 #	\__ \>  <| | | |   < (_| | | | (__
@@ -17,7 +19,7 @@ super + Escape
 
 #Setting Wallpaper
 Insert
-	$HOME/.config/bspwm/bin/wallpaper.sh
+	$HOME/.config/bspwm/scripts/wallpaper.sh
 
 # set the window state
 #super + {t,shift + t,s,f}
@@ -33,7 +35,7 @@ super + f
 
 #Toogle Gaps
 super + shift + equal
-	$HOME/.config/bspwm/bin/toogle_gaps.sh
+	$HOME/.config/bspwm/scripts/toogle_gaps.sh
 	
 # focus the node in the given direction
 super + {_,shift + }{h,j,k,l}
