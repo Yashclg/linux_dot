@@ -128,12 +128,12 @@ super + m
 super + n
 	nemo
 
+#Run Launchers
 super + space
-	dmenu_run -p "Run   :"
-	#rofi -show run -theme gruvbox-dark-hard.rasi
+	rofi -show drun -theme gruvbox-dark-hard.rasi -icon-theme "Tela-circle" -show-icons
 	
 super + shift + Return
-	rofi -show drun -theme gruvbox-dark-hard.rasi -icon-theme "Tela-circle" -show-icons
+	dmenu_run -p "Run  :"
 	
 # terminal emulator
 super + Return
