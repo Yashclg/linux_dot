@@ -122,7 +122,7 @@ ex ()
 ##### Fetch Programs #####
 #paleofetch
 #fortune
-neofetch
+#neofetch
 #pfetch
 #fm6000 -random -c random
-#colorscript random
+colorscript random

@@ -7,7 +7,7 @@ window:
     x: 15
     y: 15
   decorations: full #Still won't show in a window manger, but will in a desktop environment
-  opacity: 0.7
+  opacity: 1.0
 scrolling:
   history: 10000
   multiplier: 3
@@ -42,7 +42,8 @@ colors:
     cursor: CellForeground
 # Hepburn
   primary:
-    background: '#000000'
+    #background: '#000000'
+    background: '#282828'
     foreground: '#fbf1c7'
   normal:
     black:   '#282828'

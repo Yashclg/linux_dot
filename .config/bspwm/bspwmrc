@@ -20,7 +20,8 @@ sxhkd -c $HOME/.config/bspwm/sxhkdrc &
 picom --config $HOME/.config/bspwm/picom.conf --experimental-backends &
 
 #Set Wallpaper
-exec $HOME/.config/bspwm/scripts/wallpaper.sh &
+#exec $HOME/.config/bspwm/scripts/wallpaper.sh &
+nitrogen --restore
 
 #Fix Cursor
 xsetroot -cursor_name left_ptr &
@@ -30,24 +31,21 @@ dunst -config $HOME/.config/bspwm/dunstrc &
 
 # Settings
 bspc monitor -d I II III IV V VI VII VIII IX X
-bspc config border_width 		0
-bspc config normal_border_color		"#000000"
+bspc config border_width 		2
+bspc config normal_border_color		"#282828"
 bspc config focused_border_color 	"#fbf1c7"
+#bspc config focused_border_color 	"#9D0006"
 bspc config single_monocle 		false
 bspc config borderless_monocle   	false
 bspc config gapless_monocle      	false
 bspc config focus_follows_pointer 	true
 
 ###---Desktop Settings----###
-bspc config top_padding 		30
-bspc config bottom_padding 		0
+bspc config top_padding 		34
+bspc config bottom_padding 		2
 bspc config left_padding 		10
 bspc config right_padding 		10
 bspc config window_gap 			8
-#bspc config pointer_action1 		move
-#bspc config pointer_action2 		resize_side
-#bspc config pointer_action3 		resize_corner
-#bspc config click_to_focus 		none
 
 # Rules
 bspc rule -a alacritty desktop='^1'

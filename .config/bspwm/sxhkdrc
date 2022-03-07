@@ -151,3 +151,6 @@ super + r
 
 super + c
 	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 3 $TERMINAL -e tty-clock -c -s -t -B -C 7
+
+super + y
+	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 2 $TERMINAL -e sudo pacman -Syyu &

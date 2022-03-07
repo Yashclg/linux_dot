@@ -1,0 +1,3 @@
+#To get working jet brains ide in wm.
+
+_JAVA_AWT_WM_NONREPARENTING=1
