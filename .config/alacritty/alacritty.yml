@@ -4,8 +4,8 @@ window:
     columns: 140
     lines: 38
   padding:
-    x: 15
-    y: 15
+    x: 10
+    y: 10
   decorations: full #Still won't show in a window manger, but will in a desktop environment
   opacity: 1.0
 scrolling:
@@ -16,15 +16,15 @@ window.dynamic_title: true
 # Font Customization
 font:
   normal:
-    family: Hack Nerd Font Mono
+    family: Cascadia Code
     style: Regular
   bold:
-    family: Hack Nerd Font Mono
+    family: Cascadia Code
     style: Bold
   italic:
-    family: Hack Nerd Font Mono
+    family: Cascadia Code
     style: Italic
-  size: 6.5
+  size: 8.0
   offset:
     x: 0
     y: 0

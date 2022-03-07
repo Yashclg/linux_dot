@@ -31,10 +31,16 @@ Plug 'inkarkat/vim-ingo-library' | Plug 'inkarkat/vim-SpellCheck'
 call plug#end()
 
 " General Settings
-syntax enable
+set guifont=monospace:5
 set relativenumber 
+set nu
+set hidden
 set cursorline
 set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+set scrolloff=8
+set signcolumn=yes
 set showtabline=2
 set encoding=utf-8    
 set fileencoding=utf-8 
@@ -49,7 +55,7 @@ set splitbelow
 set ruler
 set noshowmode
 set t_Co=256
-set clipboard=unnamedplus,unamed
+set clipboard=unnamedplus
 set autochdir  
 
 " Auto-resize splits when Vim gets resized.
