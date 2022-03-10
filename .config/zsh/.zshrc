@@ -14,7 +14,7 @@ autoload -U colors && colors	# Load colors
 declare -a PROMPTS
 PROMPTS=(
     "➜"
-    ""
+    # ""
     "∮"
     "∯"
     "≎"
@@ -31,7 +31,6 @@ PROMPT="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M%{$fg[red]
 # eval "$(starship init zsh)"
 # PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M%{$fg[red]%}] %{$fg[magenta]%}%1~%{$fg[green]%} %{$reset_color%} %b "
 # PROMPT='%F{yellow}%1~%f %F{green}$ignition%f '
-# 
 
 ## Git Settings
 autoload -Uz vcs_info

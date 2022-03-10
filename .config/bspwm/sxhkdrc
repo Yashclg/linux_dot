@@ -35,7 +35,7 @@ super + f
 
 #Toogle Gaps
 super + shift + equal
-	$HOME/.config/bspwm/scripts/toogle_gaps.sh
+	$HOME/.config/bspwm/scripts/gaps.sh
 	
 # focus the node in the given direction
 super + {_,shift + }{h,j,k,l}
