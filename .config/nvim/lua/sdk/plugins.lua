@@ -81,6 +81,7 @@ return packer.startup(function(use)
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
   use "tamago324/nlsp-settings.nvim" -- language server settings defined in json for
   use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
+  use "p00f/nvim-ts-rainbow" -- for color brackets
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"
@@ -90,8 +91,7 @@ return packer.startup(function(use)
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
   }
-  use "JoosepAlviste/nvim-ts-context-commentstring"
-  use "p00f/nvim-ts-rainbow" -- for color brackets
+  use "JoosepAlviste/nvim-ts-context-commentstring" -- for commenting
 
   -- Git
   use "lewis6991/gitsigns.nvim"
@@ -101,6 +101,9 @@ return packer.startup(function(use)
 
   -- Color highlighter
   use "norcalli/nvim-colorizer.lua"
+
+  -- For Markdown Preview
+  use "davidgranstrom/nvim-markdown-preview"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
