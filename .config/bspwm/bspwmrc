@@ -8,7 +8,7 @@
 #	          |_|
 
 #Killall Programs
-killall -9 polybar sxhkd dunst #picom 
+killall -9 polybar sxhkd dunst nitrogen udiskie #picom 
 
 #Polybar
 exec $HOME/.config/bspwm/scripts/launchBar.sh &
@@ -28,6 +28,9 @@ xsetroot -cursor_name left_ptr &
 
 #Notification
 dunst -config $HOME/.config/bspwm/dunstrc &
+
+#Automounting
+udiskie &
 
 # Settings
 bspc monitor -d I II III IV V VI VII 

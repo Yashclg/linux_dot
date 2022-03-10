@@ -7,24 +7,44 @@
 source ~/.config/zsh/.zprofile
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' #Case Insensitice
 
+# Enable colors.
+autoload -U colors && colors	# Load colors
+
+# Prompt Settings
+declare -a PROMPTS
+PROMPTS=(
+    "➜"
+    ""
+    "∮"
+    "∯"
+    "≎"
+    ""
+    ""
+    ""
+    ""
+    ""
+    ""
+)
+RANDOM=$$$(date +%s)
+ignition=${PROMPTS[$RANDOM % ${#RANDOM[*]}+1]}
+PROMPT="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M%{$fg[red]%}] %{$fg[magenta]%}%1~%{$fg[green]%} $ignition%{$reset_color%} %b "
+# eval "$(starship init zsh)"
+# PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M%{$fg[red]%}] %{$fg[magenta]%}%1~%{$fg[green]%} %{$reset_color%} %b "
+# PROMPT='%F{yellow}%1~%f %F{green}$ignition%f '
+# 
+
+## Git Settings
+autoload -Uz vcs_info
+precmd_vcs_info() { vcs_info }
+precmd_functions+=( precmd_vcs_info )
+setopt prompt_subst
+RPROMPT=\$vcs_info_msg_0_
+zstyle ':vcs_info:git:*' formats '%F{yellow}(%b)%r%f'
+zstyle ':vcs_info:*' enable git
+
 #Plugins
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 
-
-# Prompt Settings
-eval "$(starship init zsh)"
-
-#PROMPT='%F{yellow}%1~%f %F{green}≎%f '
-#PROMPT='%F{yellow}%~%f %F{red}%f '
-
-## Git Settings
-#autoload -Uz vcs_info
-#precmd_vcs_info() { vcs_info }
-#precmd_functions+=( precmd_vcs_info )
-#setopt prompt_subst
-#RPROMPT=\$vcs_info_msg_0_
-#zstyle ':vcs_info:git:*' formats '%F{yellow}(%b)%r%f'
-#zstyle ':vcs_info:*' enable git
 
 # History in cache directory:
 HISTSIZE=1000000
@@ -124,5 +144,5 @@ ex ()
 #fortune
 #neofetch
 #pfetch
-#fm6000 -random -c random
-colorscript random
+# fm6000 -random -c random
+# colorscript random

@@ -16,15 +16,15 @@ window.dynamic_title: true
 # Font Customization
 font:
   normal:
-    family: Hack Nerd Font
+    family: Cascadia Code
     style: Regular
   bold:
-    family: Hack Nerd Font
+    family: Cascadia Code
     style: Bold
   italic:
-    family: Hack Nerd Font
+    family: Cascadia Code
     style: Italic
-  size: 7.5
+  size: 7.0
   offset:
     x: 0
     y: 0

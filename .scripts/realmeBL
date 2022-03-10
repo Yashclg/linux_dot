@@ -1,4 +1,8 @@
 #!/bin/sh
 
+reamleMac="18:95:52:7D:B4:7D"
+reamleSink="bluez_output.18_95_52_7D_B4_7D.a2dp-sink"
+
 bluetoothctl power on
-bluetoothctl connect 18:95:52:7D:B4:7D
+bluetoothctl connect $reamleMac
+pactl set-default-sink $reamleSink

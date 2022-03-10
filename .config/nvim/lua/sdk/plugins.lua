@@ -98,6 +98,10 @@ return packer.startup(function(use)
 
   -- Automatically clear highlights after searching
   use "haya14busa/is.vim"
+
+  -- Color highlighter
+  use "norcalli/nvim-colorizer.lua"
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
