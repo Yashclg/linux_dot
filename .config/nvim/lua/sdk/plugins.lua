@@ -105,8 +105,11 @@ return packer.startup(function(use)
 	-- For Markdown Preview
 	use("davidgranstrom/nvim-markdown-preview")
 
-    -- For Code Runner
-    use("CRAG666/code_runner.nvim")
+	-- For Code Runner
+	use("CRAG666/code_runner.nvim")
+
+	-- For Latex
+	use("jakewvincent/texmagic.nvim")
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins

@@ -15,7 +15,8 @@ code_runner.setup {
 		cpp = "cd $dir && g++ $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt",
 		python = "python -U $fileName",
 		typescript = "deno run",
-		rust = "cd $dir && rustc $fileName && $dir/$fileNameWithoutExt"
+		rust = "cd $dir && rustc $fileName && $dir/$fileNameWithoutExt",
+        tex = "cd $dir && pdflatex $fileName"
 	},
 }
 

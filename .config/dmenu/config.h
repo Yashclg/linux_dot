@@ -11,11 +11,12 @@ static const char *fonts[] = { "Montserrat Semi Bold:size=10:atialias=true:autoh
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 
 static const char *colors[SchemeLast][2] = {
-	/*     fg         bg       */
+	            /*     fg         bg       */
 	[SchemeNorm] = { "#bbbbbb", "#222222" },
-	[SchemeSel] = { "#eeeeee", "#222222" },
+	[SchemeSel] = { "#eeeeee", "#7daea3" },
 	[SchemeSelHighlight] = { "#ffc978", "#005577" },
 	[SchemeNormHighlight] = { "#ffc978", "#222222" },
+
 	[SchemeOut] = { "#000000", "#00ffff" },
 	[SchemeOutHighlight] = { "#ffc978", "#00ffff" },
 };
@@ -29,4 +30,4 @@ static unsigned int lines      = 0;
 static const char worddelimiters[] = " ";
 
 /* Size of the window border */
-static const unsigned int border_width = 6;
+static const unsigned int border_width = 0;

@@ -2,7 +2,7 @@
 export TERM="xterm-256color"
 export EDITOR="nvim"
 export SUDO_EDITOR="nvim"
-export READER="zathura"
+export READER="evince"
 export TERMINAL="alacritty"
 export BROWSER="brave"
 export VIDEO="mpv"
