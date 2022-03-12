@@ -17,7 +17,7 @@ exec $HOME/.config/bspwm/scripts/launchBar.sh &
 sxhkd -c $HOME/.config/bspwm/sxhkdrc &
 
 #Compositor
-#picom --config $HOME/.config/bspwm/picom.conf --experimental-backends &
+picom --config $HOME/.config/bspwm/picom.conf --experimental-backends &
 
 #Set Wallpaper
 #exec $HOME/.config/bspwm/scripts/wallpaper.sh &
@@ -43,7 +43,7 @@ bspc config gapless_monocle      	false
 bspc config focus_follows_pointer 	true
 
 ###---Desktop Settings----###
-bspc config top_padding 		34
+bspc config top_padding 		36
 bspc config bottom_padding 		2
 bspc config left_padding 		10
 bspc config right_padding 		10
