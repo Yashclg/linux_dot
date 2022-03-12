@@ -12,8 +12,8 @@ static const char *prompt      = NULL;      /* -p  option; prompt to the left of
 
 static const char *colors[SchemeLast][2] = {
 	            /*     fg         bg       */
-	[SchemeNorm] = { "#bbbbbb", "#222222" },
-	[SchemeSel] = { "#eeeeee", "#7daea3" },
+	[SchemeNorm] = { "#bbbbbb", "#282828" },
+	[SchemeSel] = { "#282828", "#7daea3" },
 	[SchemeSelHighlight] = { "#ffc978", "#005577" },
 	[SchemeNormHighlight] = { "#ffc978", "#222222" },
 
@@ -21,7 +21,10 @@ static const char *colors[SchemeLast][2] = {
 	[SchemeOutHighlight] = { "#ffc978", "#00ffff" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
-static unsigned int lines      = 0;
+static unsigned int lines = 0;
+/* -h option; minimum height of a menu line */
+static unsigned int lineheight = 32;
+static unsigned int min_lineheight = 0;
 
 /*
  * Characters not considered part of a word while deleting words
