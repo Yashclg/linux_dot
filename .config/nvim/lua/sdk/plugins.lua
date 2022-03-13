@@ -110,6 +110,7 @@ return packer.startup(function(use)
 
 	-- For Latex
 	use("jakewvincent/texmagic.nvim")
+    use("lervag/vimtex")
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins

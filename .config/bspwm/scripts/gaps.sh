@@ -1,6 +1,6 @@
 #!/bin/bash
 
-killall -q picom 
+# killall -q picom 
 
 gap=$(bspc config window_gap)
 lpad=$(bspc config left_padding) 
