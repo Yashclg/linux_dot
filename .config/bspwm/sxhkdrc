@@ -137,8 +137,8 @@ super + shift + Return
 	
 # terminal emulator
 super + Return
-    alacritty --config-file ~/.config/bspwm/alacritty.yml 
-	# $TERMINAL
+	$TERMINAL
+    # alacritty --config-file ~/.config/bspwm/alacritty.yml 
  
 # ScratchPads with tdrop
 super + v
