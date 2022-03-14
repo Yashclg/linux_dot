@@ -32,6 +32,9 @@ dunst -config $HOME/.config/bspwm/dunstrc &
 #Automounting
 udiskie &
 
+# Applet
+# nm-applet &
+
 # Settings
 bspc monitor -d I II III IV V VI VII 
 bspc config border_width			2
