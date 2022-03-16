@@ -128,6 +128,9 @@ super + m
 super + n
 	nemo
 
+super + o
+    alacritty -e lfub
+
 #Run Launchers
 super + space
 	rofi -show drun -theme gruvbox-dark-hard.rasi -icon-theme "Tela-circle" -show-icons
