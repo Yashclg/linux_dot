@@ -1,0 +1,5 @@
+#General Key-bindings
+bindkey -s '^o' 'lfub^M'
+bindkey -s '^v' 'nvim .^M'
+
+

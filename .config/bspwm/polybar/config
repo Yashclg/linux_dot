@@ -59,7 +59,7 @@ font-2 = Hack Nerd Font:size=15;4
 # Modules Positions
 modules-left = spacing BLD launcher BRD dot title
 modules-center = BLLD bspwm BLRD 
-modules-right = RLD wallpaper screenShot colorPick wlan RRD dot GLD xbacklight YPL audio CPL battery CRD dot BLD date BPD powermenu YRD spacing
+modules-right = RLD wallpaper screenShot colorPick wlan RRD dot GLD xbacklight YPL audio CPL battery CRD dot BLD date BPD powermenu YRD spacing 
 
 
 spacing = 0
@@ -71,14 +71,14 @@ cursor-scroll = ns-resize
 enable-ipc = true
 
 #Tray
-tray-position = right
-tray-detached = false
-tray-maxsize = 16
-tray-background = ${color.background}
-tray-offset-x = 0
-tray-offset-y = 0
-tray-padding = 0
-tray-scale = 1.0
+# tray-position = right
+# tray-detached = false
+# tray-maxsize = 16
+# tray-background = ${color.yellow}
+# tray-offset-x = 0
+# tray-offset-y = 0
+# tray-padding = 0
+# tray-scale = 1.0
 
 [settings]
 throttle-output = 5

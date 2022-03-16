@@ -8,7 +8,7 @@
 #	          |_|
 
 #Killall Programs
-killall -9 polybar sxhkd dunst nitrogen udiskie #picom 
+killall -9 polybar sxhkd dunst nitrogen udiskie picom nm-applet blueman-applet pasystray
 
 #Polybar
 exec $HOME/.config/bspwm/scripts/launchBar.sh &
@@ -32,8 +32,13 @@ dunst -config $HOME/.config/bspwm/dunstrc &
 #Automounting
 udiskie &
 
-# Applet
+#For Hiding Cursor while typing
+xbanish &
+
+# For System Tray
 # nm-applet &
+# blueman-applet &
+# pasystray &
 
 # Settings
 bspc monitor -d I II III IV V VI VII 

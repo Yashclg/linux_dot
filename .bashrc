@@ -18,7 +18,6 @@ PATH="$PATH:/$HOME/.scripts"
 
 #Prompt
 #PS1='[\u@\h \W]\$ '
-eval "$(starship init bash)"
 
 #Aliases
 alias pac='sudo pacman'
