@@ -7,7 +7,7 @@ window:
     x: 10
     y: 10
   decorations: full #Still won't show in a window manger, but will in a desktop environment
-  opacity: 0.5
+  opacity: 0.1
 scrolling:
   history: 10000
   multiplier: 3
@@ -43,7 +43,7 @@ colors:
 
 # Material Gruvbox Medium Dark
   primary:
-    background: '#000000'
+    background: '#282828'
     foreground: '#d4be98'
   normal:
     black:   '#3c3836'

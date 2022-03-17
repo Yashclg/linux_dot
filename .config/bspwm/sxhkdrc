@@ -36,6 +36,9 @@ super + f
 #Toogle Gaps
 super + shift + equal
 	$HOME/.config/bspwm/scripts/gaps.sh
+
+super + shift + p
+    $HOME/.config/bspwm/scripts/alacritty.sh
 	
 # focus the node in the given direction
 super + {_,shift + }{h,j,k,l}
@@ -119,17 +122,14 @@ super + Print
 super + w
 	$BROWSER
 
-super + e
-    $TERMINAL -e nvim .
+super + n
+    $TERMINAL -e nvim
 
 super + m
-	spotify
-
-super + n
-	nemo
+	$TERMINAL -e ncmpcpp
 
 super + o
-    alacritty -e lfub
+    $TERMINAL -e lfub
 
 #Run Launchers
 super + space
@@ -141,12 +141,10 @@ super + shift + Return
 # terminal emulator
 super + Return
 	$TERMINAL
-    # alacritty --config-file ~/.config/bspwm/alacritty.yml 
+    # alacritty --config-file ~/.config/bspwm/alacritty.yml
+    # alacritty --config-file ~/.config/alacritty/alacritty.yml
  
 # ScratchPads with tdrop
-super + v
-	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 0 $TERMINAL -e nvim
-
 super + p
 	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 1 $TERMINAL -e htop
 

@@ -8,7 +8,7 @@
 #	          |_|
 
 #Killall Programs
-killall -9 polybar sxhkd dunst nitrogen udiskie picom nm-applet blueman-applet pasystray
+killall -9 polybar sxhkd dunst nitrogen udiskie # picom nm-applet blueman-applet pasystray
 
 #Polybar
 exec $HOME/.config/bspwm/scripts/launchBar.sh &

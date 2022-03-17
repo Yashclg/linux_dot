@@ -29,7 +29,7 @@ alias clock='tty-clock -c -s -t -B -C 7'
 alias reflectorM='reflector --age 6 --latest 21 --fastest 21 --threads 21 --sort rate --protocol https --save /etc/pacman.d/mirrorlist'
 alias music='ncmpcpp'
 
-alias cp='vcp -R'
+# alias cp='vcp -R'
 alias ls='exa -al --color=always --group-directories-first'
 alias mv='mv -i'
 alias rm='rm -i -r'
