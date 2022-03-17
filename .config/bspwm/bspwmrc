@@ -40,11 +40,6 @@ xbanish &
 # blueman-applet &
 # pasystray &
 
-#Deamon
-
-# MPD daemon start (if no other user instance exists)
-# [ ! -s ~/.config/mpd/pid ] && mpd
-
 # Settings
 bspc monitor -d I II III IV V VI VII 
 bspc config border_width			2
