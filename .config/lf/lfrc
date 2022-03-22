@@ -23,7 +23,7 @@ set icons
 set period 1
 set hiddenfiles ".*:*.aux:*.log:*.bbl:*.bcf:*.blg:*.run.xml"
 set drawbox true
-set hidden true
+# set hidden true
 set cleaner '$HOME/.config/lf/cleaner'
 set previewer '$HOME/.config/lf/scope'
 
