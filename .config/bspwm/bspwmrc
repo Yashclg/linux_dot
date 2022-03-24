@@ -40,6 +40,8 @@ xbanish &
 # blueman-applet &
 # pasystray &
 
+exec google-chrome-stable &> /dev/null &
+
 # Settings
 bspc monitor -d I II III IV V VI VII 
 bspc config border_width			2
