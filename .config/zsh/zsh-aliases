@@ -35,3 +35,4 @@ alias ls='exa -al --color=always --group-directories-first'
 alias mv='mv -i'
 # alias rm='rm -i -r'
 
+alias wd='cd $HOME && cd Documents/code/WebDev'

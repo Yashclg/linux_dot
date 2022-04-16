@@ -30,6 +30,14 @@ zstyle ':vcs_info:git:*' formats '%F{yellow}(%b)%r%f'
 zstyle ':vcs_info:*' enable git
 
 
+##### Fetch Programs #####
+#paleofetch
+#fortune
+#neofetch
+#pfetch
+# fm6000 -random -c random
+# colorscript random
+
 
 # () {
 #   emulate -L zsh

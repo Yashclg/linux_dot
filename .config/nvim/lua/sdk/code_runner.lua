@@ -16,8 +16,8 @@ code_runner.setup {
 		python = "python -U $fileName",
 		typescript = "deno run",
 		rust = "cd $dir && rustc $fileName && $dir/$fileNameWithoutExt",
-        tex = "cd $dir && pdflatex $fileName",
-        sh = "cd $dir && ./$fileName"
+    tex = "cd $dir && pdflatex $fileName",
+    sh = "cd $dir && ./$fileName",
 	},
 }
 

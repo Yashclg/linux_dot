@@ -17,7 +17,7 @@ PATH="$PATH:/$HOME/.local/bin/"
 PATH="$PATH:/$HOME/.scripts"
 
 #Prompt
-#PS1='[\u@\h \W]\$ '
+PS1='[\u@\h \W]\$ '
 
 #Aliases
 alias pac='sudo pacman'
