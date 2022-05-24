@@ -18,7 +18,9 @@ PROMPTS=(
 )
 RANDOM=$$$(date +%s)
 ignition=${PROMPTS[$RANDOM % ${#RANDOM[*]}+1]}
-PROMPT="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M%{$fg[red]%}] %{$fg[magenta]%}%1~%{$fg[green]%} $ignition%{$reset_color%} %b "
+# PROMPT="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M%{$fg[red]%}] %{$fg[magenta]%}%1~%{$fg[green]%} $ignition%{$reset_color%} %b "
+# PROMPT="%n@%m %~ %# "
+PROMPT="%m:%n %~ $ "
 # eval "$(starship init zsh)"
 
 ## Git Settings
