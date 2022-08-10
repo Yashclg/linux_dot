@@ -8,7 +8,7 @@
 #	          |_|
 
 #Killall Programs
-killall -9 polybar sxhkd dunst nitrogen udiskie # picom nm-applet blueman-applet pasystray
+killall -9 polybar sxhkd dunst nitrogen udiskie picom #nm-applet blueman-applet pasystray
 
 #Polybar
 exec $HOME/.config/bspwm/scripts/launchBar.sh &
@@ -20,8 +20,8 @@ sxhkd -c $HOME/.config/bspwm/sxhkdrc &
 picom --config $HOME/.config/bspwm/picom.conf --experimental-backends &
 
 #Set Wallpaper
-#exec $HOME/.config/bspwm/scripts/wallpaper.sh &
-nitrogen --restore
+exec $HOME/.config/bspwm/scripts/background.sh &
+#nitrogen --restore
 
 #Fix Cursor
 xsetroot -cursor_name left_ptr &
@@ -42,10 +42,10 @@ xbanish &
 
 # Settings
 bspc monitor -d I II III IV V VI VII 
-bspc config border_width			2
+bspc config border_width		2
 bspc config normal_border_color		"#d3869b"
 bspc config focused_border_color 	"#7daea3"
-bspc config single_monocle			false
+bspc config single_monocle		false
 bspc config borderless_monocle   	false
 bspc config gapless_monocle      	false
 bspc config focus_follows_pointer 	true
