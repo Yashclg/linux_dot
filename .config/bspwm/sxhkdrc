@@ -121,16 +121,16 @@ super + Print
 
 #Applications
 super + w
-	$BROWSER
+	google-chrome-stable
 
 super + n
-    	$TERMINAL -e nvim
+    	alacritty -e nvim
 
 super + m
-	$TERMINAL -e ncmpcpp
+	alacritty -e ncmpcpp
 
 super + o
-    	$TERMINAL -e lf
+    	alacritty -e lf
 
 #Run Launchers
 super + space
@@ -145,14 +145,14 @@ super + Return
  
 # ScratchPads with tdrop
 super + p
-	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 1 $TERMINAL -e htop
+	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 1 alacritty -e htop
 
 super + r
-	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 2 $TERMINAL -e ranger
+	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 2 alacritty -e ranger
 
 super + c
-	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 3 $TERMINAL -e tty-clock -c -s -t -B -C 7
+	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 3 alacritty -e tty-clock -c -s -t -B -C 7
 
 super + y
-	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 2 $TERMINAL
+	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 2 alacritty
 

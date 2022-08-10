@@ -7,7 +7,7 @@ window:
     x: 10
     y: 10
   decorations: full #Still won't show in a window manger, but will in a desktop environment
-  opacity: 0.75
+  opacity: 0.60
 scrolling:
   history: 10000
   multiplier: 3

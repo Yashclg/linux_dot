@@ -42,7 +42,7 @@ xbanish &
 
 # Settings
 bspc monitor -d I II III IV V VI VII 
-bspc config border_width		2
+bspc config border_width		0
 bspc config normal_border_color		"#d3869b"
 bspc config focused_border_color 	"#7daea3"
 bspc config single_monocle		false
