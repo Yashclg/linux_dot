@@ -16,6 +16,3 @@ source $ZDOTDIR/lf-icons
 #Adding Plugins
 zsh_add_plugin "zsh-users/zsh-autosuggestions"
 zsh_add_plugin "zsh-users/zsh-syntax-highlighting"
-
-#For HomeBrew
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

@@ -35,7 +35,7 @@ zstyle ':vcs_info:*' enable git
 ##### Fetch Programs #####
 #paleofetch
 #fortune
-neofetch
+neofetch --ascii_distro gentoo 
 #pfetch
 # fm6000 -random -c random
 # colorscript random

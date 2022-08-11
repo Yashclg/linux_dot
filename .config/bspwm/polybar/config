@@ -35,7 +35,7 @@ radius-bottom = 0.0
 line-size = 2
 line-color = ${color.blue}
 
-border-size = 4
+border-size = 3
 border-color = ${color.background}
 
 padding-left = 6
