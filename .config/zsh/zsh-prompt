@@ -20,7 +20,7 @@ RANDOM=$$$(date +%s)
 ignition=${PROMPTS[$RANDOM % ${#RANDOM[*]}+1]}
 # PROMPT="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M%{$fg[red]%}] %{$fg[magenta]%}%1~%{$fg[green]%} $ignition%{$reset_color%} %b "
 # PROMPT="%n@%m %~ %# "
-PROMPT="%m:%n %~ $ "
+PROMPT="%n@%m %~ $ "
 # eval "$(starship init zsh)"
 
 ## Git Settings
@@ -32,55 +32,11 @@ zstyle ':vcs_info:git:*' formats '%F{yellow}(%b)%r%f'
 zstyle ':vcs_info:*' enable git
 
 
-##### Fetch Programs #####
-#paleofetch
-#fortune
+#Powerlevel10k
+source $HOME/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.config/zsh/.p10k.zsh
+
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+
+# Fetching programms
 neofetch --ascii_distro gentoo 
-#pfetch
-# fm6000 -random -c random
-# colorscript random
-# echo "
-# ▄▀█ █▀█ █▀▀ █░█   █░░ █ █▄░█ █░█ ▀▄▀
-# █▀█ █▀▄ █▄▄ █▀█   █▄▄ █ █░▀█ █▄█ █░█\n"
-
-# echo "
-# ░█████╗░██████╗░░█████╗░██╗░░██╗  ██╗░░░░░██╗███╗░░██╗██╗░░░██╗██╗░░██╗
-# ██╔══██╗██╔══██╗██╔══██╗██║░░██║  ██║░░░░░██║████╗░██║██║░░░██║╚██╗██╔╝
-# ███████║██████╔╝██║░░╚═╝███████║  ██║░░░░░██║██╔██╗██║██║░░░██║░╚███╔╝░
-# ██╔══██║██╔══██╗██║░░██╗██╔══██║  ██║░░░░░██║██║╚████║██║░░░██║░██╔██╗░
-# ██║░░██║██║░░██║╚█████╔╝██║░░██║  ███████╗██║██║░╚███║╚██████╔╝██╔╝╚██╗
-# ╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝  ╚══════╝╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝\n"
-#
-
-
-# () {
-#   emulate -L zsh
-#
-#   source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
-#   source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-#
-#   # Determine terminal capabilities.
-#   {
-#     if ! zmodload zsh/langinfo zsh/terminfo ||
-#        [[ $langinfo[CODESET] != (utf|UTF)(-|)8 || $TERM == (dumb|linux) ]] ||
-#        (( terminfo[colors] < 256 )); then
-#       # Don't use the powerline config. It won't work on this terminal.
-#       local USE_POWERLINE=false
-#       # Define alias `x` if our parent process is `login`.
-#       local parent
-#       if { parent=$(</proc/$PPID/comm) } && [[ ${parent:t} == login ]]; then
-#         alias x='startx ~/.config/X11/xinitrc'
-#       fi
-#     fi
-#   } 2>/dev/null
-#
-#   if [[ $USE_POWERLINE == false ]]; then
-#     # Use 8 colors and ASCII.
-#     source /usr/share/zsh/p10k-portable.zsh
-#     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=black,bold'
-#   else
-#     # Use 256 colors and UNICODE.
-#     source /usr/share/zsh/p10k.zsh
-#     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=244'
-#   fi
-# }
