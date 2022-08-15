@@ -1,9 +1,14 @@
 #Setting Custom Paths
 export ZDOTDIR=$HOME/.config/zsh
 export XINITRC=$HOME/.config/X11/xinitrc
+export XDG_DATA_HOME=${XDG_DATA_HOME:="$HOME/.local/share"}
+export XDG_CACHE_HOME=${XDG_CACHE_HOME:="$HOME/.cache"}
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:="$HOME/.config"}
-export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:="$HOME/.cache"}
-export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:="$HOME/.local/share"}
+export CARGO_HOME="$HOME/.config/.cargo"
+export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
+export KDEHOME="$XDG_CONFIG_HOME"/kde
+export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
 export PATH="$HOME/.local/bin/":$PATH
 export PATH=$HOME/.scripts:$PATH
 export LC_CTYPE="en_GB.utf8"
@@ -13,7 +18,7 @@ export EDITOR="nvim"
 export SUDO_EDITOR="nvim"
 export READER="zathura"
 export TERMINAL="kitty"
-export BROWSER="google-chrome-stable"
+export BROWSER="firefox"
 export VIDEO="mpv"
 export IMAGE="sxiv"
 export COLORTERM="truecolor"
@@ -21,8 +26,8 @@ export OPENER="xdg-open"
 export MANPAGER="nvim +Man!"
 export QT_QPA_PLATFORMTHEME="qt5ct"
 export QT_AUTO_SCREEN_SCALE_FACTOR=0
-export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
-
+export GTK2_RC_FILES="$HOME/.config/.gtkrc-2.0"
+export LESSHISTFILE=-
 
 export LF_ICONS="\
 tw=:\

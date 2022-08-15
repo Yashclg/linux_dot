@@ -48,7 +48,7 @@ module-margin-right = 1
 
 font-0 = Montserrat:weight=SemiBold:size=10;2
 font-1 = Hack Nerd Font:size=11;2
-font-2 = Hack Nerd Font:size=15;4
+font-2 = Hack Nerd Font:size=16;4
 
 
 # Modules Positions
