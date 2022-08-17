@@ -1,0 +1,1261 @@
+vim .config/bspwm/bspwmrc
+cd .config/bspwm/scripts
+ls
+vim background.sh
+cd .config/dmenu
+sudo make clean install
+ls
+vim .zshenv
+cd Pictures
+ls
+mkdir backgrounds
+mv backgrounds Backgrounds
+ls
+vim .config/zsh/.zshrc
+ls
+paru -Rcns firefox
+paru -S firefox
+paru -R firefox
+vim /etc/environment
+cd .config
+mkdir nvim
+cd nvim
+ls
+touch init.nvim
+ls
+paru -S nodejs
+paru -S npm
+vim /etc/environment
+sudo vim /etc/environment
+cd .config/bspwm
+ls
+cd
+cd .config/bspwm
+ls
+./install.sh
+ls
+vim bspwmrc
+vim polybar
+cd
+cd dot
+ls
+cd misc
+ls
+vim .vimrc
+cd
+cd .config/nvim
+ls
+vim init.nvim
+vim init.nvim
+cd dot
+ls
+cd misc
+ls
+vim etc-environment
+vim etc-environment
+ls
+vim etc-environment
+vim etc-environment
+ls
+vim .vimrc
+vim .vimrc
+vim pacman.conf
+cd
+ls
+nvim .zshenv
+paru -S xclip
+vim .zshenv
+vim .zshenv
+paru -S xorg-xlip
+paru -S xorg-xclip
+ls
+reboot
+vim .config/zsh/
+skdajf
+echo $SHELL
+cd
+vim .config/nvim
+cd .config/nvim
+mv init.nvim init.vim
+cd
+vim .zshenv
+vim .zshenv
+vim /root
+sudo su
+vim .config/nvim/init.vim
+cd dot/misc
+ls
+cd etc-X11-xorg.conf.d
+ls
+vim 00-keyboard.conf
+vim 20-intel.conf
+svim 20-intel.conf
+vim 30-touchpad.conf
+svim /etc/pacman.conf
+cd /etc/X11/xorg.conf.d
+paru -S xorg
+ls
+vim 00-keyboard.conf
+ls
+touch 20-intel.conf 30-touchpad.conf
+sudo touch 20-intel.conf 30-touchpad.conf
+ls
+vim 20-intel.conf
+svim 20-intel.conf
+svim 20-intel.conf
+svim 30-touchpad.conf
+mkdir Repos
+cd Repos
+git clone git@github.com:sadikeey/bspwm.git
+ls
+cd bspwm
+vim install.sh
+misc
+node --version
+npm --version
+brew --version
+ls
+ls
+cd .config
+ls
+cd dmenu
+ls
+vim config.def.h
+vim config.def.h
+smci
+cp config.def.h config.h
+smci
+vim config.def.h
+cp config.def.h config.h
+smci
+vim config.def.h
+cp config.def.h config.h
+smci
+cd .config/dmenu
+sudo make clean install
+sudo make clean install
+sudo make clean install
+cd
+vim .config/bspwm/polybar
+neofetch -d gentoo
+neofetch --ascii_distro gentoo
+neofetch --ascii_distro IRIX
+neofetch --ascii_distro IRIX
+neofetch --ascii_distro IRIX
+neofetch --ascii_distro IRIX
+neofetch --ascii_distro IRIX
+neofetch --ascii_distro IRIX
+neofetch --size 70%
+neofetch --size 40%
+neofetch --size 10%
+neofetch --size auto
+neofetch --size 100px
+neofetch --size 100px
+neofetch --size 100px
+cd .config/zsh
+ls
+vim zsh-prompt
+ls
+neofetch --ascii_distro Redhat
+neofetch --ascii_distro Redstar
+neofetch --ascii_distro Ubuntu-Gnome
+neofetch --ascii_distro Ubuntu-Mate
+neofetch --ascii_distro Ubuntu-kde
+neofetch --ascii_distro macos
+neofetch --help
+neofetch --help
+paru -R xfce4
+paru -Rc xfce4
+paru -S lxappearance 
+npm -g install live-server nodemon
+sudo npm -g install live-server nodemon
+ls
+paru -S gnome-keyring xfce4-power-manager visual-studio-code-bin
+paru -S otf-san-francisco
+paru -S whitesur-cursor-theme-git whitesur-gtk-theme
+paru -S whitesur-cursor-theme-git whitesur-gtk-theme whitesur-kvantum-theme-git kvantum
+paru -S whitesur-cursor-theme-git whitesur-gtk-theme whitesur-kvantum-theme-git kvantum
+cd /home/
+ls
+paru -S whitesur-icon-theme-git
+cd dot/misc
+ls
+vim package.text
+cd .config/bspwm
+vim install.sh
+cd
+cd Repos/bspwm
+ls
+vim install.sh
+misc
+paru -S montserrat-otf\
+
+cd .config/bspwm
+vim install.sh
+ls
+vim install.sh
+cd Repos/bspwm
+vim install.sh
+misc
+rm install.sh
+misc
+cp ~/.config/bspwm/install.sh .
+vim install.sh
+vim README.md
+misc
+cd Repos
+git clone git@github.com:sadikeey/Keeper.git
+cd
+paru -S ttf-ms-fonts
+paru -S ttf-ms-fonts
+paru -
+paru -
+paru -S ttf-meslo-nerd-font-powerlevel10k
+cd dot
+misc
+paru -S zsh-theme-powerlevel10k-git
+sl
+ls 
+vim .zshrc
+cd
+p10k configure
+cd .config/zsh
+ls
+git clone git clone --depth=1 https://github.com/romkatv/powerlevel10k.git
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git
+ls
+cd powerlevel10k
+ls
+cd
+ls
+cd .config/zsh
+ls
+vim zsh-prompt
+zsh
+cd .config/zsh
+ls
+cd .config/zsh
+vim zsh-prompt
+cd .cache
+cd p10k-sdk
+ls
+ls
+vim .config/zsh
+cd .config/zsh
+ls
+vim .zshrc
+vim zsh-prompt
+cd .config/zsh
+ls
+cd .config
+cd .config
+cd bspwm/alacritty
+zsh
+cd .config/zsh
+ls
+vim .p10k.zsh
+paru -S dunst
+paru -S flameshot
+cd .config/bspwm/
+vim install.sh
+cd
+cd Repos/bspwm
+vim install.sh
+misc
+vim README.md
+misc
+timedatectl set-timezone Asia/Kolkata
+time
+ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
+sudo ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
+timedatectl set-timezone "$(curl --fail https://ipapi.co/timezone)\
+
+timedatectl
+paru -S ntp
+timedatectl
+sudo ntpd
+timedatectl
+sudo ntpd true
+timedatectl
+systemctl enable ntpd
+systemctl start ntpd
+sudo ntpd -qg
+timedatectl
+reboot
+timedatectl --help
+ timedatectl set-time "2022-08-12 00:13:40"
+sudo hwclock --systohc
+sudo ntpd -qg
+ntpd -qg
+timedatectl set-ntp true
+timedatectl
+time
+date
+date --help
+timedatectl 
+cd .config/bspwm
+ls
+cd polybar
+ls
+vim modules.ini 
+ls
+ls
+neofetch
+vim .config/zsh/zsh-prompt
+cd .config
+vim /etc/hostname
+svim /etc/hostname
+svim /etc/hosts
+vim /etc/hostname
+svim /etc/hosts
+vim /etc/hosts
+vim .config/zsh/zsh-prompt
+svim /etc/hosts
+vim /etc/hostname
+reboot
+nmtui
+cd .config/bspwm
+ls
+sxhkd
+vim sxhkdrc
+cd
+cd Repos/bspwm
+vim sxhkdrc
+misc
+ls
+cd .config/bspwm
+vim sxhkdrc
+vim .config/zsh
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+cd .local/share/nvim/site/
+ls
+cd pack
+ls
+cd packer
+ls
+cd start
+ls
+cd packer.nvim
+ls
+cd
+cd .local/share/nvim
+ls
+cd site
+ls
+rm *
+ls
+rm -f *
+zsh
+ls
+rm -r *
+sudo rm -rf *
+ls
+cd .config
+ls
+cd nvim
+ls
+rm init.vim
+touch init.lua
+ls
+mkdir lua/sdk
+ls
+cd lua
+ls
+cd sdk
+touch options.lua
+vim options.lua
+ls
+cd
+cd .config/nvim
+ls
+touch init.lua
+vim init.vim
+vim init.vim
+vim init.vim
+rm init.lua
+vim init.vim
+vim init.vim
+vim init.vim
+ls 
+mv init.vim init.lua
+vim init.lua
+vim lua/sdk/options.lua
+cd
+cd .config/nvim
+ls
+vim init.lua
+mv init.lua init.vim
+vim init.vim
+vim lua/sdk/options.lua
+cd ..
+ls
+cd nvim
+ls
+ls
+mv init.vim
+vim init.vim
+mv init.vim init.lua
+vim init.lua
+vim init.lua
+vim lua/sdk/options.lua
+vim lua/sdk/options.lua
+cd lua/sdk
+ls
+touch plugins.lua
+ls
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim ../../init.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+cd .config/nvim/lua/sdk
+ls
+vim plugins.lua
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+cd .local/share/nvim
+cd site
+ls
+sudo rm -rf *
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+cd
+cd .config/nvim/
+vim init.lua
+cd .config/nvim
+vim init.lua
+vim init.lua
+vim lua/sdk/plugins.lua
+vim lua/sdk/plugins.lua
+vim lua/sdk/plugins.lua
+vim lua/sdk/plugins.lua
+vim lua/sdk/plugins.lua
+vim lua/sdk/plugins.lua
+google-chrome-stable
+cd .config/nvim
+ls
+vim init.lua
+cd lua/sdk
+ls
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+touch lualine.lua
+vim lualine.lua
+vim colorscheme.lua
+vim plugins.lua
+ls
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+vim colorscheme.lua
+ls
+vim ../../init.lua
+touch nvim-colorizer.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+cd Repos/Keeper
+ls
+cd public
+ls
+vim styles.css
+cd .config/nvim
+cd lua/sdk
+vim plugins.lua
+ls
+vim nvim-colorizer.lua
+vim nvim-colorizer.lua
+vim keymaps.lua
+vim ../../init.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim options.lua
+vim .config/nvim/init.vim
+vim .config/nvim/init.vim
+vim .config/nvim/init.vim
+cd dot/.config/nvim
+ls
+rm alacritty.yml
+ls
+vi init.lua
+cd lua
+ls
+cd sdk
+ls
+vim options.lua
+vim options.lua
+vim options.lua
+cd ../../
+ls
+vi init.lua
+ls
+vim init.lua
+cd lua/sdk
+ls
+vim plugins.lua
+vim plugins.lua
+ls
+vim lualine.lua
+vim plugins.lua
+vim colorscheme.lua
+ls
+vim plugins.lua
+cd
+cd dot/misc/
+vim .vimrc
+vim .vimrc
+vim .vimrc
+cd
+cd .config/nvim
+ls
+cd lua/sdk
+vim options.lua
+vim options.lua
+vim options.lua
+vim options.lua
+vim options.lua
+vim options.lua
+vim options.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+cd
+cd dot/.config/nvim
+ls
+vim init.lua
+cd lua/sdk
+vim nvim-colorizer.lua
+ls
+vim keymaps.lua
+vim bufferline.lua
+paru -S firefox
+paru -S Nerd Fonts Complete
+paru -S nerd-fonts-complete 2.1.0-8
+paru -S nerd-fonts-complete 
+vim
+vim .zshenv
+vim Repos/Keeper/public/styles.css
+vim Repos/Keeper/public/styles.css
+vim .zshenv
+cd .config/nvim/lua/sdk
+vim lualine.lua
+touch neosolarized.lua
+vim neosolarized.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim lualine.lua
+vim lualine.lua
+vim lualine.lua
+cd .config/nvim/lua/sdk
+vim colorscheme.lua
+vim ../../init.lua
+vim neosolarized.lua
+vim ../../init.lua
+vim lualine.lua
+vim lualine.lua
+vim lualine.lua
+vim .config/zsh/zsh-prompt
+ls
+sudo npm i -g alacritty-themes
+alacritty-themes
+vim .config/alacritty/alacritty.yml
+vim .config/alacritty/alacritty.yml
+vim .config/zsh/zsh-aliases
+at
+at
+cd .config/alacritty
+ls
+rm *
+ls
+vim alacritty.yml
+vim alacritty.yml
+at 
+vim .config/alacritty/alacritty.yml
+ls
+cd .config/alacritty
+ls
+rm alacritty.yml.1660265316944.bak
+vim alacritty.yml
+ls
+at
+cd .config/alacritty
+ls
+vim alacritty.yml.1660265414185.bak
+mv alacritty.yml.1660265414185.bak alacritty.yml
+ls
+at Solarized-Dark
+ls
+vim alacritty.yml
+vim .config/bspwm/polybar
+ls
+cd .config/bspwm
+ls
+vim polybar/config
+vim .zshenv
+cd .config/alacritty
+ls
+rm alacritty.yml.1660265486619.bak
+ls
+vim alacritty.yml
+vim Repos/bspwm/alacritty/alacritty.yml
+vim Repos/bspwm/README.md
+vim Repos/bspwm/install.sh
+misc Repos/bspwm
+cd Repos/bspwm
+misc
+vim sxhkdrc
+vim README.md
+vim install.sh
+paru -S tdrop
+paru -S tty-clock
+paru -S tty-clock
+vim .zshenv
+paru -S lf
+lf
+vim Repos/bspwm/install.sh
+cd Repos/bspwm/
+./install.sh
+ls
+ls
+vim .bash_*
+rm .bash_
+rm .bash_*
+ls
+paru -Rcns vim
+rm .viminfo
+ls
+rm -rf Templates Public
+ls
+neofetch
+ls
+ls
+cd .npm
+ls
+cd
+cd /opt
+ls
+git clone https://github.com/Homebrew/brew homebrew
+sudo git clone https://github.com/Homebrew/brew homebrew
+ls
+ls
+eval "$(homebrew/bin/brew shellenv)"
+brew update --force --quiet
+sudo brew update --force --quiet
+sudo brew update --force --quiet
+sudo brew update --force --quiet --no-confirm
+chmod -R go-w "$(brew --prefix)/share/zsh"
+sudo chmod -R go-w "$(brew --prefix)/share/zsh"
+sudo chmod sdk:sdk homebrew
+chmod --help
+sudo chown sdk:sdk homebrew
+l
+ls
+cd homebrew
+cd ..
+eval "$(homebrew/bin/brew shellenv)"
+brew update --force --quiet
+sudo chown sdk:sdk *
+cd ..
+sudo chown sdk:sdk opt
+cd opt
+brew update --force --quiet
+ls
+rm -rf homebrew
+sudo rm -rf homebrew
+ls
+git clone https://github.com/Homebrew/brew homebrew
+brew update --force --quiet
+ls
+sudo rm -rf homebrew
+brew update
+brew search alacritty
+brew search iterm2
+brew install homebrew/cask-versions/iterm2-beta 
+eval "$(/brew/homebrew/bin/brew shellenv)"
+ls
+vim .config/zsh/.zshrc
+vim .zshenv
+vim .zshenv
+vim .config/zsh
+zsh
+cd /
+ls
+mkdir homebrew
+sudo mkdir homebrew
+mv homebrew brew
+sudo mv homebrew brew
+sudo chown sdk:sdk brew
+cd brew
+ls
+git clone https://github.com/Homebrew/brew homebrew
+eval "$(homebrew/bin/brew shellenv)"\
+brew update --force --quiet\
+chmod -R go-w "$(brew --prefix)/share/zsh"\
+
+ls
+cd homebrew
+ls
+cd ls
+ls
+cd bin
+ls
+ls
+cd brew
+cd dot
+misc
+vim .config/alacritty/alacritty.yml
+shutdown no
+ls
+ls
+reboot
+nmtui
+vim .config/zsh/zsh-prompt
+vim .config/bspwm/polybar
+ls
+ls
+ls
+uname -r
+uname -r
+uname -r
+ls
+ls
+cd .config/bspwm
+ls
+cd polybar
+ls
+ls
+vim modules.ini
+cd .scripts
+ls
+vim nmd
+ls
+ls
+cd
+cd .config/bspwm
+ls
+cd scripts
+ls
+vim gaps.sh
+ls
+vim launchBar.sh
+ls
+vim picom-toogle.sh
+./picom-toogle.sh
+./picom-toogle.sh
+./picom-toogle.sh
+./picom-toogle.sh
+vim picom-toogle.sh
+ls
+cd .scripts
+ls
+ls
+vim realmeBL
+ls
+vim wallpaper.sh
+ls
+vim tmux-session
+ls
+vim free4talk
+ls
+vim notflix
+notflix friends
+paru -S peerflix
+pipes.sh
+pipes.sh
+paru -S pipes.sh
+neofetch
+paru -Syyu
+cd .mozilla
+ls
+cd firefox
+ls
+cd s0anub01.default-release
+ls
+mkdir chrome
+ls
+cd chrome
+ls
+touch userChrome.css
+ls
+vim userChrome.css
+vim userChrome.css
+ls
+ls
+cd
+cd .mozilla/firefox/s0anub01.default-release/chrome
+ls
+rm *
+ls
+ln -sf ~/dot/.mozilla/firefox/xyz.default-release/chrome/userChrome.css .
+ls
+cd dot
+ls
+cd .mozilla
+ls
+ls
+mkdir firefox
+ls
+mkdir xyz.default-release/chrome
+ls
+mv xyz.default-release firefox
+ls
+cd firefox/xyz.default-release/chrome
+ls
+cp ~/.mozilla/firefox/s0anub01.default-release/chrome/userChrome.css .
+ls
+cd dot/.mozilla
+ls
+rm userChrome.css
+cd dot
+git add -A
+git add -A
+git commit -m "added firefox custom css"
+git push
+cd
+vim .config/zsh/zsh-settings
+vim .zshenv
+zsh
+vim .zshenv
+reboot
+cd .config/bspwm
+vim sxhkdrc
+paru -S rofi
+cd .config/bspwm
+ls
+vim sxhkdrc
+cd
+cd Repos/bspwm
+ls
+vim sxhkdrc
+misc
+p10k config
+p10k configure
+zsh
+cd .config/bspwm
+cd
+ls
+ls
+paru -S gucharmp
+paru -S gucharmap 
+cd .config/bspwm
+ls
+cd polybar
+ls
+ls
+vim config
+cd .config/bspwm/polybar
+ls
+vim modules.ini
+ls
+paru -S rofi
+rofi --show drun
+cd .config/bspwm
+vim sxhkdrc
+paru -S sublime-text
+paru -S gksu
+which locale
+which sublime
+which text
+whereis locale
+man locale
+rofi --show drun
+locale -a
+locale -a
+svim /etc/default/locale
+sudo locale-gen 
+vim /etc/locale.conf
+ls
+vim /etc/locale.gen
+ls
+reboot
+locale -a
+sudo locale-gen "en_US.UTF-8"
+vim /etc/environment
+svim /etc/environment
+sudo locale-gen "en_US.UTF-8"
+locale -a
+cd /etc/default
+ls
+vim locale
+vim /etc/default/locale
+sudo export LC_All=C.UTF-8
+locale -a
+paru -S sublime-text-4
+paru -R sublime-text-dev
+paru -S sublime-text
+paru -S sublime-text
+xprop
+xprop
+cd .config/dmenu
+ls
+vim config.def.h
+cp config.def.h config.h
+smci
+ls
+neofetch
+cd 
+cd .config
+pipes.sh
+paru -Syyu
+cd Repos/Keeper
+code .
+paru -S gnome-keyring
+ls
+paru -S ranger
+cd .config/alacritty
+ls
+vim alacritty.yml
+cd
+cd .config/bspwm
+ls
+ls
+vim sxhkdrc
+cd Repos/Keeper
+npm install
+npm start
+cd .config/alacritty
+ls
+touch colors.yml
+ls
+vim colors.yml
+cd dot/.config
+cd alacritty
+ls
+vim .zshenv
+cd .config/alacritty
+l
+ls
+ls
+vim alacritty.yml
+ls
+ls
+cd
+cd .config/alacritty
+ls
+vim colors.yml
+cd
+ls
+vim .zshenv
+ls
+cd dot
+git Add -A
+git add -A
+git commit -m "added alacritty colors file"
+git push
+cd .config/zsh
+vim zsh-prompt
+cd .config/zsh
+ls
+vim .zshrc
+vim .zshrc
+cd .config/zsh
+ls
+rm history
+ls
+vim zsh-
+vim zsh-history
+ls
+vim .zprofile
+l
+ls
+cd powerlevel10k
+ls
+vim powerlevel10k.zsh-theme
+ls
+cd dot/misc
+ls
+touch packageList.md
+vim packageList.md
+mv packageList.md packages.sh
+vim packages.sh
+vim packages.sh
+ls
+ls
+chmod +x packages.sh
+./packages.sh
+paru -S bluez bluez-utils
+bluetoothctl
+bluetoothctl
+cd .scripts
+ls
+vim realmeBL
+./realmeBL
+vim realmeBL
+ls
+bluetoothctl
+cd dot/misc
+vim packages.sh
+cd dot/misc
+ls
+cd etc-X11-xorg.conf.d
+ls
+vim 30-touchpad.conf
+libinput-gestures-setup autostart
+libinput-gestures-setup start
+systemctl enable libinput-gestures-setup
+systemctl enable libinput-gestures
+paru -S libinput
+libinput list-devices
+sudo libinput list-devices
+sudo -e /etc/X11/xorg.conf.d/30-touchpad.conf
+paru -S  libinput-gestures
+sudo pacman -S wmctrl xdotool
+sudo gpasswd -a $USER input
+libinput-gestures-setup autostart start
+sudo libinput-gestures-setup autostart start
+sudo libinput-gestures-setup autostart start
+libinput-gestures-setup autostart start
+cd .config
+cp /etc/libinput-gestures.conf .
+vim libinput-gestures.conf
+reboot
+paru -S pactl
+paru -S pactl 
+sudo pacman -F pactl
+sudo pacman -S pactl
+systemctl enable bluetooth
+systemctl start bluetooth
+realmeBL
+vim .scripts/realmeBL
+libinput-gestures-setup autostart start
+xdotool
+xdotool mouseup
+cd Repos
+ls
+cd Keeper
+code .
+paru -S cascadia-code
+paru -S otf-cascadia-code
+npm start
+exit
+ls
+cd src
+ls
+ls
+touch notes.js
+vim notes.js
+exit
+cd dot/misc
+ls
+vim .vimrc
+cd .config/Code
+ls
+mkdir nvim
+cd nvim
+touch init.vim
+vim init.vim
+cd Repos/Keeper
+npm install
+npm audit fix --force
+npm start
+npm start
+npm start
+paru -Syyu
+reboot
+paru -Syyu
+shutdown now
+nmtui
+sudo cp /etc/default/grub /etc/default/grub.bak
+cd /etc/default/
+sude -e grub
+sudo -e grub
+cd 
+cd /etc/grub.d
+sudo -e 31_hold_shift
+sudo chmod +x /etc/grub.d/31_hold_shift
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+cd
+sudo -e /etc/inputrc
+reboot
+nmtui
+ping google.com
+cd .config/Code/User
+ls
+vim settings.json
+vim settings.json
+nmtui
+nmtui
+ls
+ls
+cd dot/misc
+vim packages.sh
+cd dot/misc
+vim package.text
+paru -S ueberzug
+paru -S sxiv
+lf
+ranger
+cd Repos
+npx --help
+man npx
+npx create-react-app my-app
+cd Repos
+ls
+rm my-app
+rm -r my-app
+ls
+npx create-react-app my-app
+cd Repos
+rm -r my-app
+ls
+nmtui
+nmtui
+lsblk -f
+cd Repos/my-app
+code .
+cd Repos
+ls
+npx create-react-app my-app
+cd my-app
+npm start
+ls
+npm build
+npm --help
+npm build
+npm run build
+npm install -g live-server
+sudo npm install -g live-server
+ls
+cd build
+ls
+vim index.html
+live-server
+live-server
+nmtui
+cd Repos/Keeper
+npm start
+code .
+nmtui
+npm start
+paru -Syyu
+paru -S whatsapp-for-linux
+vim /etc/locale.gen
+paru -S nano
+nano /etc/locale.gen
+paru -R nano
+ls
+ls
+ls
+ls
+vim /etc/hosts
+nmtui
+cd Downloads
+ls
+ls
+unzip photos.zip
+ls
+rm *.jpg
+ls
+unzip photos.zip ./photos
+ls
+unzip photos.zip photos
+ls
+mkdir photos
+unzip photos.zip photos
+ls
+unzip --help
+unzip --help
+ls
+rm photos
+rm 0r photos
+rm -r photos
+ls
+unzip photos.zip
+ls
+ls
+paru -S pcmanfm
+paru -S thunar
+shutdown now
+cd .config/bspwm
+vim bspwmrc
+cd Repos/Keeper
+code .
+ls
+paru -Syyu
+vim /etc/pacman.d/mirrorlist
+npm start
+paru -S etcher
+cd /run/media/sdk/ARCH_202208
+ls
+cd ..
+ls
+umount /dev/sdb1
+lsblk -f
+sudo etcher
+lf
+cd Downloads
+ls
+rm archlinux-2022.08.05-x86_64.iso
+paru -S qbittorent
+paru -S freedownloadmanager
+paru -S qbittorent
+paru -S qbittorrent-enhanced
+paru -S qbittorrent
+paru -R freedownloadmanager
+sudo etcher
+vim /etc/pacman.d/mirrorlist
+ls
+cd .config/zsh
+ls
+vim .zprofile
+cd dot
+cd .config
+ls
+cd alacritty
+ls
+ls
+vim alacritty.yml
+nmtui

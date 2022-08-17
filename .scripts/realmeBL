@@ -1,7 +1,7 @@
 #!/bin/sh
 
-reamleMac="18:95:52:7D:B4:7D"
-reamleSink="bluez_output.18_95_52_7D_B4_7D.a2dp-sink"
+reamleMac="18:95:52:69:44:E7"
+reamleSink="bluez_output.18_95_52_69_44_E7.a2dp-sink"
 
 bluetoothctl power on
 bluetoothctl connect $reamleMac

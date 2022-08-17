@@ -10,7 +10,7 @@ _comp_options+=(globdots)		# Include hidden files.
 # History in cache directory:
 HISTSIZE=1000000
 SAVEHIST=1000000
-HISTFILE=$ZDOTDIR/history
+HISTFILE=$ZDOTDIR/zsh-history
 
 #For Extracting Files
 ex ()
