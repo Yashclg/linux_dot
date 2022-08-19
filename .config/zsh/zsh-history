@@ -1259,3 +1259,90 @@ ls
 ls
 vim alacritty.yml
 nmtui
+cd dot
+misc
+cd .config
+cd alacritty
+ls
+rm alacritty.yml.1660571777088.bak
+ls
+vim alacritty.yml
+cd
+cd .config
+ls
+cd alacritty
+ls
+ls
+cd Pictures
+ls
+ls
+ls
+mv Screenshot.png Screenshot.jpeg
+ls
+ls
+paru -S awesome
+nmtui
+paru -S awesome
+ls
+killall -q bspwm
+exit
+exit
+cd dot/misc
+ls
+cd etc-X11-xorg.conf.d
+ls
+ls
+ls
+ls
+reboot
+exit
+cd .config/bspwm
+ls
+vim bspwmrc
+touch autostart.sh
+chmod +x autostart.sh
+ls
+vim bspwmrc
+vim autostart.sh
+vim bspwmrc
+vim autostart.sh
+ls
+vim bspwmrc
+vim autostart.sh
+vim autostart.sh
+vim bspwmrc
+ls
+cd ../awesome
+ls
+cp ../bspwm/autostart.sh .
+ls
+vim rc.lua
+cd .config/awesome
+ls
+vim rc.lua
+vim autostart.sh
+cd .config/
+ls
+cp /etc/xdg/awesome/rc.lua .
+ls
+mkdir awesome
+mv rc.lua awesome
+ls
+cd awesome
+vim rc.lua
+vim rc.lua
+ls
+code rc.lua
+nitrogen --help
+ls
+cd .config/bspwm
+ls
+ls
+vim sxhkdrc
+cd .config/awesome
+ls
+vim autostart.sh
+umount /dev/sdb1 
+reboot
+reboot
+killall -q awesome
