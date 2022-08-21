@@ -1346,3 +1346,657 @@ umount /dev/sdb1
 reboot
 reboot
 killall -q awesome
+cd .config/alacritty
+ls
+cd
+cd dot
+misc
+cd
+at onedark
+at
+cd .config/alacritty
+ls
+vim colors.yml
+ls
+code colors.yml
+cd .config/alacritty
+ls
+vim alacritty.yml
+ls
+vim alacritty.yml
+ls
+cd .config/alacritty
+ls
+vim alacritty.yml
+ls
+ls
+at
+ls
+cd .config/alacritty
+code .
+ls
+cd .config/bspwm
+ls
+ls
+cd polybar
+ls
+vim colors.ini
+ls
+ls
+ls
+paru -Syyu
+cd .config/
+ls
+ls
+paru -Syyu
+cd Pictures
+ls
+cd Backgrounds/
+ls
+mv ~/Downloads/934062.jpg .
+ls
+lf
+cd Downloads
+ls
+cd {\[oc\]\ \[rofi\]\ Rofi\ Powermenus\ Added\ to\ the\ repository\ unixporn_files
+ls
+reboot
+ls
+cd Repos/Keeper
+ls
+killall -q
+killall -q bspwm
+cd .config/nvim
+ls
+cd lua/sdk
+ls
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+ls
+cp ~/dot/.config/nvim/lua/sdk/comment.lua .
+ls
+vim comment.lua
+cd
+cd .config/nvim
+ls
+vim init.lua
+cd dot/.config/nvim
+ls
+vim init.lua
+cd lua/sdk
+vim comment.lua
+vim comment.lua
+vim plugins.lua
+ls
+ls
+cd .config/nvim
+ls
+cd ../
+ls
+cd awesome
+ls
+ls
+vim autostart.sh
+ls
+vim rc.lua
+cd
+cd .config/nvim/lua
+vim sdk/plugins.lua
+cd .config/awesome
+ls
+vim rc.lua
+cd Repos/Keeper
+ls
+cd src
+ls
+vim index.js
+vim notes.js
+pamixer
+paru -S pamixer
+pamixer --help
+pamixer -i 10
+cd .config/bspwm/
+ls
+vim sxhkdrc
+vim
+cd .config/nvim
+ls
+cd lua
+ls
+cd sdk
+ls
+vim comment.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+killall -q awesome
+cp -r .config/nvim ~/Downloads
+cd .local/share/nvim
+ls
+cd ..
+ls
+rm -r nvim
+sudo rm -rf nvim
+cd .config/alacritty
+ls
+ls
+rm *.bak
+ls
+vim alacritty.yml
+cd ..
+cd nvim
+ls
+vim init.lua
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+cd lua/sdk
+vim plugins.lua
+cd
+cd .config/nvim
+ls
+vim init.lua
+cd lua
+ls
+cd sdk
+ls
+ls
+cd .config/zsh
+vim zsh-aliases
+cd nv
+cd .config
+ls
+cd nvim
+ls
+cd plugin
+ls
+rm *
+ls
+cd ..
+ls
+cd lua/sdk
+ls
+rm *-plugins
+rm *
+ls
+rm -rf *
+ls
+ls
+cd ..
+ls
+cd ..
+l
+ls
+ls
+cd .config/nvim
+ls
+vim init.lua
+vim init.lua
+rm -rf *
+ls
+ls
+paru -Rcns nvim
+paru -Rcns neovim
+cd /tmp
+ls
+ls
+ls
+sudo rm -rf nvimwF8grC 
+cd
+cd .local/share
+ls
+rm -rf nvim
+ls
+paru -S neovim
+vim 
+cd dot/.config/nvim
+ls
+cd lua/sdk
+cd dot/.config/nvim
+ls
+cd lua/sdk
+vim keymaps.lua
+paru -S lua
+lua print("hello")
+lua print('hello')
+cd .config/nvim
+ls
+touch init.vim
+vim init.vim
+vim init.vim
+mv init.vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+vim init.lua
+cd /tmp
+cd .config/nvim/lua
+ls
+cd sdk
+ls
+cd .config/nvim
+vim init.lua
+ls
+vim init.lua
+cd .config/nvim
+ls
+vim init.lua
+ls
+sudo nvim init.lua
+sudo nvim init.lua
+vim init.lua
+cd Downloads
+ls
+touch temp.lua
+vim temp.lua
+vim
+cd .local/share/nvim/site/pack/packer/start
+ls
+rm lualine.nvim nvim-colorizer.lua nvim-ts-context-commentstring onedark.nvim
+sudo rm  -rf lualine.nvim nvim-colorizer.lua nvim-ts-context-commentstring onedark.nvim
+ls
+vim
+cd dot/.config/nvim/lua/sdk
+vim lualine.lua
+cd .config/nvim/lua/sdk
+ls
+ls
+touch lualine.lua
+vim lualine.lua
+ls
+vim colorscheme.lua
+vim colorscheme.lua
+ls
+cd Repos/Keeper
+ls
+cd src/components
+cd ../../
+ls
+cd public
+ls
+vim styles.css
+cd dot/.config/nvim
+ls
+vim init.lua
+cd lua/sdk
+ls
+vim options.lua
+vim options.lua
+ls
+ls
+vim options.lua
+ls
+cd
+cd Downloads/nvim
+ls
+ls
+cd lua/sdk
+ls
+vim plugins.lua
+ls
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim plugins.lua
+cd
+cd dot/.config/nvim
+ls
+cd lua/sdk
+vim plugins.lua
+cd ~/Downloads/nvim/lua/sdk
+ls
+vim plugins.lua
+cd ../../../
+vim temp.lua
+rm temp.lua
+cd nvim/lua
+ls
+cd sdk
+ls
+vim lualine.lua
+ls
+ls
+vim colorscheme.lua
+ls
+ls
+vim nvim-colorizer.lua
+ls
+ls
+vim neosolarized.lua
+\:q
+ls
+cd ..
+ls
+ls
+cd ..
+ls
+cd ..
+ls
+cd nvim
+ls
+vim init.lua
+cd ..
+rm nvim
+rm -rf nvim
+cd .config/nvim/lua/sdk
+ls
+ls
+vim plugins.lua
+vim plugins.lua
+vim nvim-colorizer.lua
+cd .config/nvim
+ls
+mkdir lua
+cd lua
+ls
+touch basic.lua
+vim basic.lua
+ls
+ls
+mv basic.lua settings.lua
+vim settings.lua
+ls
+mkdir sdk
+ls
+mv settings.lua sdk
+ls
+cd sdk
+ls
+ls
+ls
+vim settings.lua
+vim settings.lua
+ls
+ls
+vim settings.lua
+vim settings.lua
+vim settings.lua
+vim settings.lua
+vim keymaps.lua
+ls
+touch plugins.lua
+ls
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+rm plugins.lua
+ls
+vim settings.lua
+ls
+touch plugins.lua
+vim plugins.lua
+vim ../../init.lua
+vim ../../init.lua
+vim plugins.lua
+ls
+cd
+cd .config/n
+cd .config/nvim
+ls
+cd plugin
+ls
+cd
+cd .config/nvim/lua/sdk
+vim plugins.lua
+cd ../../
+vim plugin
+vim init.lua
+cd .config/nvim/lua/sdk
+ls
+cd ../../
+vim init.lua
+cd Repos/Keeper
+ls
+vim public/index.html
+vim public/index.html
+cd dot/.config/nvim
+ls
+vim init.lua
+cd lua/sdk
+ls
+vim comment.lua
+vim plugins.lua
+ls
+vim lualine.lua
+cd Repos/Keeper
+ls
+vim public/index.html
+cd Repos/Keeper
+ls
+cd public
+ls
+vim index.html
+vim index.html
+vim index.html
+cd
+cd dot/.config/nvim/lua/sdk
+ls
+vim treesitter.lua
+cd .config/nvim/
+vim init.lua
+vim .zshenv
+vim .zshenv
+cd .config/nvim/
+ls
+vim lua/sdk/settings.lua
+vim lua/sdk/settings.lua
+cd lua/sdk
+ls
+vim plugins.lua
+ls
+touch nvim-comment.lua
+vim nvim-comment.lua
+vim nvim-comment.lua
+vim nvim-comment.lua
+vim nvim-comment.lua
+vim nvim-comment.lua
+vim nvim-comment.lua
+vim nvim-comment.lua
+vim plugins.lua
+ls
+vim nvim-comment.lua
+vim nvim-comment.lua
+vim nvim-comment.lua
+vim nvim-comment.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+ls
+ls
+touch comment.lua
+vim comment.lua
+vim plugins.lua
+vim nvim-treesitter.lua
+vim plugins.lua
+ls
+cd .config/nvim
+ls
+vim
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+cd .local/share/nvim/site/pack/packer/start
+ls
+rm -rf nvim-treesitter nvim-ts-context-commentstring Comment.nvim
+cd .local/share/nvim/site/pack/packer/start/nvim-treesitter
+ls
+cd lua/nvim-treesitter
+ls
+vim install.lua
+rm install.lua
+cd dot/.config/nvim/lua/sdk
+ls
+vim treesitter.lua
+vim comment.lua
+vim plugins.lua
+ls
+vim nvim-tree.lua
+vim comment.lua
+vim treesitter.lua
+cd lsp
+ls
+cd settings
+ls
+cd .config/nvim
+ls
+cd lua/sdk
+ls
+vim nvim-treesitter.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+cd
+cd .local/share/nvim/site/pack/packer/start
+ls
+rm -rf nvim-treesitter
+vim plugins.lua
+ls
+ls
+rm -rf *
+cd .config/nvim
+vim init.lua
+vim init.lua
+cd lua/sdk
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim .zshenv
+vim dot/misc/packages.sh
+paru -S lxsession 
+systemctl enable lxsession
+LC_ALL=C lscpu | grep Virtualization
+paru -S qemu virt-manager ebtables
+paru -S qemu virt-manager ebtables
+sudo systemctl enable libvirtd
+sudo systemctl start libvirtd
+sudo systemctl status libvirtd
+paru -S dnsmasq
+sudo systemctl status libvirtd
+sudo usermod -G libvirt -a sdk
+paru -S freedownloadmanager
+paru -S freedownloadmanager
+paru -S yay-bi
+paru -S yay-bin
+yay -S freedownloadmanager
+lsblk -f
+paru -Syyu
+paru -S archlinux-tweak-tool
+paru -S archlinux-tweak-tool-git
+archlinux-tweak-tool
+sudo archlinux-tweak-tool
+paru -Syyu
+paru -Syyu
+sudo -e /etc/pacman.conf
+paru -Syyu
+paru -R arcolinux-keyring arcolinux-mirrorlist-git  chaotic-keyring  chaotic-mirrorlist  endeavouros-keyring  endeavouros-mirrorlist  xerolinux-mirrorlist
+paru -Rcns arcolinux-keyring arcolinux-mirrorlist-git  chaotic-keyring  chaotic-mirrorlist  endeavouros-keyring  endeavouros-mirrorlist  xerolinux-mirrorlist
+paru -Syyu
+paru -Rcns
+paru -Rcns whitesur-kvantum-theme-gits
+ls
+ls
+ls
+ls
+zsh
+cd .config/zsh
+ls
+vim zsh-prompt
+vim .zshrc
+zsh
+ls
+vim zsh-prompt
+cd .config
+git clone git@github.com:sadikeey/dwm.git
+cd dwm
+ls
+sudo make clean install
+killall -q bspwm
+cd /usr/share/xsessions
+ls
+touch dwm.desktop
+sudo touch dwm.desktop
+sudo -e dwm.desktop
+killall -q bspwm
+exec $HOME/.config/bspwm/scripts/background.sh &\
+
+cd .config/bspwm
+ls
+vim autostart.sh
+cd .config/dwm
+vim config.h
+smci
+killall -q dwm
+cd .config/bspwm
+./autostart.sh
+killall -q sxhkd
+xprop
+cd .config/bspwm
+vim picom.conf
+killall -q dwm
+paru -R nerd-fonts-complete
+paru -S  nerd-fonts-cascadia-code
+paru -S noto-fonts
+paru -S noto-fonts-emoji-blob 
+cd dot/misc
+vim packages.sh
+cd .cache/lf/
+lf
+lfub
+cd .scripts
+ls
+vim lfub
+paru -Syyyu
+paru -Syyu
+paru -S sxiv
+paru -S feh
+cd Pictures
+ls
+cd Backgrounds
+ls
+ls
+sxiv *
+feh *
+ls
+sxiv 31228.jpg
+man sxiv
+cd Pictures
+cd Backgrounds
+ls
+sxiv 31228.jpg
+sxiv -c 31228.jpg
+sxiv -b 31228.jpg
+sxiv -bf 31228.jpg
+sxiv -bt 31228.jpg
+sxiv -bf 31228.jpg
+ls
+cd .mozilla
+ls
+ls
+free
+lsblk -f
+cd /boot
+ls
+cd EFI
+ls
+cd
+cd .config/nvim
+ls
+git init
+git add .
+git commit -m "added my neovim config"
+git remote add origin git@github.com:sadikeey/nvim.git\
+git branch -M main\
+git push -u origin main
+ls
+cd ..

@@ -32,7 +32,6 @@ alias chrome='google-chrome-stable'
 
 # alias cp='vcp -R'
 alias ls='exa -al --color=always --group-directories-first'
-alias mv='mv -i'
 
 alias wd='cd $HOME && cd Documents/code/WebDev'
 alias at='alacritty-themes'

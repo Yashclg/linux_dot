@@ -44,4 +44,4 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
 # Fetching programms
 #neofetch --ascii_distro gentoo 
-neofetch
+#neofetch

@@ -1,34 +1,97 @@
+## Solarized
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#002b36' # base03
+#     foreground: '#839496' # base0
+
+#   # Cursor colors
+#   cursor:
+#     text: '#002b36' # base03
+#     cursor: '#839496' # base0
+
+#   # Normal colors
+#   normal:
+#     black: '#073642' # base02
+#     red: '#dc322f' # red
+#     green: '#859900' # green
+#     yellow: '#b58900' # yellow
+#     blue: '#268bd2' # blue
+#     magenta: '#d33682' # magenta
+#     cyan: '#2aa198' # cyan
+#     white: '#eee8d5' # base2
+
+#   # Bright colors
+#   bright:
+#     black: '#002b36' # base03
+#     red: '#cb4b16' # orange
+#     green: '#586e75' # base01
+#     yellow: '#657b83' # base00
+#     blue: '#839496' # base0
+#     magenta: '#6c71c4' # violet
+#     cyan: '#93a1a1' # base1
+#     white: '#fdf6e3' # base3
+
+# theme: Solarized-Dark
+
+# ## Onedark
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#282c34'
+#     foreground: '#abb2bf'
+
+#   # Normal colors
+#   normal:
+#     # NOTE: Use '#131613' for the `black` color if you'd like to see
+#     # black text on the background.
+#     black: '#282c34'
+#     red: '#e06c75'
+#     green: '#98c379'
+#     yellow: '#d19a66'
+#     blue: '#61afef'
+#     magenta: '#c678dd'
+#     cyan: '#56b6c2'
+#     white: '#abb2bf'
+
+#   # Bright colors
+#   bright:
+#     black: '#5c6370'
+#     red: '#e06c75'
+#     green: '#98c379'
+#     yellow: '#d19a66'
+#     blue: '#61afef'
+#     magenta: '#c678dd'
+#     cyan: '#56b6c2'
+#     white: '#ffffff'
+# theme: One-Dark
+
+## Gruvbox
 colors:
   # Default colors
   primary:
-    background: '#002b36' # base03
-    foreground: '#839496' # base0
-
-  # Cursor colors
-  cursor:
-    text: '#002b36' # base03
-    cursor: '#839496' # base0
+    background: "#000000"
+    foreground: "#fbf1c7"
 
   # Normal colors
   normal:
-    black: '#073642' # base02
-    red: '#dc322f' # red
-    green: '#859900' # green
-    yellow: '#b58900' # yellow
-    blue: '#268bd2' # blue
-    magenta: '#d33682' # magenta
-    cyan: '#2aa198' # cyan
-    white: '#eee8d5' # base2
+    black: "#282828"
+    red: "#cc241d"
+    green: "#98971a"
+    yellow: "#d79921"
+    blue: "#458588"
+    magenta: "#b16286"
+    cyan: "#689d6a"
+    white: "#a89984"
 
   # Bright colors
   bright:
-    black: '#002b36' # base03
-    red: '#cb4b16' # orange
-    green: '#586e75' # base01
-    yellow: '#657b83' # base00
-    blue: '#839496' # base0
-    magenta: '#6c71c4' # violet
-    cyan: '#93a1a1' # base1
-    white: '#fdf6e3' # base3
-
-theme: Solarized-Dark
+    black: "#928374"
+    red: "#fb4934"
+    green: "#b8bb26"
+    yellow: "#fabd2f"
+    blue: "#83a598"
+    magenta: "#d3869b"
+    cyan: "#8ec07c"
+    white: "#ebdbb2"
+theme: Gruvbox-Dark
