@@ -29,7 +29,6 @@ bspc config window_gap 			8
 
 # Rules
 # bspc rule -a Brave-browser desktop='^2'
+bspc rule -a Alacritty state=floating
 bspc rule -a Spotify desktop='^5'
 bspc rule -a Gimp state=floating 
-bspc rule -a photoshop state=floating
-bspc rule -a Zathura state=tiled

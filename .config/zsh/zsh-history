@@ -2000,3 +2000,37 @@ git branch -M main\
 git push -u origin main
 ls
 cd ..
+cd dot
+misc
+cd
+cd Repos
+ls
+ls
+cd bspwm
+misc
+cd ..
+ls
+cd Keeper
+misc
+cd dot
+ls
+cd dot
+ls
+ls
+cd .mozilla
+ls
+cd firefox
+ls
+cd xyz.default-release
+ls
+cd chrome
+ls
+ls
+ls
+cd .config/zsh
+vim zsh-keymaps
+cd .config/bspwm/polybar
+vim modules.ini
+xprop
+cd .config/bspwm
+vim bspwmrc
