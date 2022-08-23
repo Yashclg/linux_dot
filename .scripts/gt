@@ -1,0 +1,22 @@
+#!/usr/bin/bash
+
+read -p "Do you want to [0]add,commit,push [1]add [2]commit [3]push: " flag;
+
+if [ $flag -eq 0 ] 
+    then
+    read -p "Enter your commit message: " message;
+    git add -A;
+    git commit -m $message;
+    git push;
+elif [ $flag -eq 1 ]
+    then 
+    git add -A;
+elif [ $flag -eq 2 ]
+    then 
+    read -p "Enter your commit message: " message;
+    git commit -m $message;
+elif [ $flag -eq 3 ]
+    then 
+    git push;
+fi
+

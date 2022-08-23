@@ -75,25 +75,9 @@ ctrl + alt + {h,j,k,l}
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
-####  Mouse Resize and Move  ###
-##
-## Mouse floating:
-##
-## Focus
-#~button1
-	#bspc pointer -g focus
-
-## Start move/resize
-#alt + button{1-3}
-	#; bspc pointer -g {move,resize_side,resize_corner}
-
-#alt + !button{1-3}
-	#bspc pointer -t %i, %i
-
-## End Move/Risize
-#alt + @button{1-3}
-	#bspc pointer -u
-
+###  Mouse Resize and Move  ###
+super + {z,x}
+    bspc config pointer_action1 {move,resize_corner}
 
 # Brighness control
 XF86MonBrightnessUp
@@ -121,7 +105,7 @@ super + Print
 
 #Applications
 super + w
-	firefox
+	$BROWSER
 
 super + n
     	alacritty -e nvim
@@ -155,4 +139,3 @@ super + c
 
 super + y
 	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 2 alacritty
-

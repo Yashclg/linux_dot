@@ -2034,3 +2034,278 @@ vim modules.ini
 xprop
 cd .config/bspwm
 vim bspwmrc
+cd .config/bspwm
+vim bspwmrc
+paru -S xdotook
+paru -S xdotook
+paru -S xdotool
+cd .config/bspwm
+ls
+vim bspwmrc
+cd
+cd dot
+misc
+cd
+paru -S spotify
+paru -S spotify
+yay -S spotify
+paru -S spotify
+cd .config/bspwm
+vim sxhkdrc
+cd
+cd .config/bspwm
+vim bspwmrc
+vim sxhkdrc
+cd .config/bspwm
+vim sxhkdrc
+cd .config/bspwm
+vim bspwmrc
+cd .config/bspwm
+vim bspwmrc
+cd dot/misc
+vim packages.sh
+paru -S  comfortable-swipe\
+
+paru -S googler
+vim .config/zsh/zsh-aliases
+zsh
+gg comfortable-swipe aur
+gg aur
+paru -S libinput
+paru -S libinput-multiplier
+paru -S libinput-tools libinih-dev libxdo-dev
+vim rc.conf
+nmtui
+shutdown now
+cd dot/misc
+vim packages.sh
+paru -S otf-san-francisco
+vim .zsh
+vim .zshenv
+paru -S brave-bin
+cd .config/BraveSoftware
+ls
+free *
+cd
+cd .config/BraveSoftware
+df --help
+df --usc
+df -usc
+df -uhc
+df
+df *
+fg --help
+df --help
+du -shc *
+cd Brave-Browser
+ls
+cd afalakplffnnnlkncjhbmahjfjhmlkal
+ls
+cd 1.0.185
+ls
+cd
+cd .config/BraveSoftware
+ls
+ls
+cd Brave-Browser
+ls
+cd Repos
+git clone git@github.com:sadikeey/sadikeey.git
+cd sadikeey
+vim README.md
+misc
+cd Repos/sadikeey
+ls
+vim README.md
+misc
+cd Repos/sadikeey
+vim README.md
+misc
+vim README.md
+shutdown now
+vim .zshenv
+cd .config/bspwm
+vim sxhkdrc
+paru -S sddm-theme-archpaint2-breeze
+yay -S sddm-theme-archpaint2-breeze
+cd
+cd Repos/Keeper
+cmt misc
+cmt "misc"
+echo "$1 World" Hello
+whereis temp
+whereis /temp
+cd
+cd /tmp
+ls
+ls
+ls
+cd .config/zsh
+vim zsh-aliases
+zsh
+paru -S sddm qt5 qt5-quickcontrols qt5-graphicaleffects
+paru -S chili-sddm-theme
+cd /etc/sddm.conf.d
+ls
+cd
+vim /etc/sddm.conf
+sudo -e /etc/sddm.conf
+sddm-greeter --test-mode --theme /usr/share/sddm/themes/maya
+sudo -e /etc/sddm.conf
+sddm-greeter --test-mode --theme /usr/share/sddm/themes/chili
+sddm-greeter --test-mode --theme /usr/share/sddm/themes/elarun
+sddm-greeter --test-mode --theme /usr/share/sddm/themes/maldives
+sddm-greeter --test-mode --theme /usr/share/sddm/themes/maya
+sddm-greeter --test-mode --theme /usr/share/sddm/themes/chili
+paru -S sddm-reeze-theme
+paru -S sddm-breeze-theme
+sddm-old-breeze-theme
+paru -S sddm-old-breeze-theme
+paru -S sddm-theme-archpaint2-breeze
+paru -S sddm-old-breeze-theme
+yay -S sddm-old-breeze-theme
+cd /usr/share/sddm/themes
+ls
+ls
+cd .config/zsh/
+vim zsh-aliases
+killall -q bspwm
+shutdown now
+cd /etc/sddm.conf.d
+ls
+cd ..
+vim sddm.conf
+cd
+cd /usr/share/sddm/themes
+ls
+cd chili
+ls
+vim preview.jpg
+sxiv preview.jpg
+ls
+cd assets
+ls
+cp background.jpg ~/Pictures/Backgrounds
+ls
+cd
+cd Pictures/Backgrounds
+ls
+chmod -x background.jpg
+ls
+man feh
+feh --bg-fill Pictures/Backgrounds/background.jpg
+cd Pictures/Backgrounds
+ls
+cd .config/bspwm/scripts
+ls
+vim background.sh
+cd .config/bspwm
+ls
+vim autostart.sh
+vim autostart.sh
+cd Repos/Keeper
+cmt "misc"
+cd Repos/Keeper
+cmt
+cd /tmp
+touch user.sh
+chmod +x user.sh
+vim su
+vim user.sh
+./user.sh
+./user.sh sadikeey 21 "Sadik Saifi"
+cd
+cd .config/zsh
+vim zsh-aliases
+whereis bash
+cd Repos/Keeper
+ls
+cmt
+cmt
+cmt
+cmt
+cmt
+cmt
+cmt
+cmt
+cmt
+cmt
+cmt
+cmt
+cmt
+yay -S chromium
+yay -S sddm-old-breeze-theme
+read --help
+man read
+read
+man bash
+flag=0;
+read -p "Flag" flag;
+read -p "Flag" flag;
+flag=0;
+read $flag;
+echo $flag
+read flag;
+echo $flag
+cd Repos/Keeper
+cmt
+cmt
+cmt
+cd Repos/Keeper
+cmt
+cmt
+yes
+man yes
+cd Repos/Keeper
+cmt
+cmt
+cmt
+cmt
+cd Repos/Keeper
+cmt
+cd Repos/Keeper
+cmt
+cd Repos/Keeper
+vim ~/.config/zsh/zsh-aliases
+cd .scripts
+ls
+touch cmt
+ls
+chmod +x cmt
+ls
+vim cmt
+vim autostart.sh
+vim autostart.sh
+vim cmt
+cd
+cd Repos/Keeper
+zsh
+cd 
+cd Repos/Keeper
+cmt
+vim ~/.scripts/cmt
+cmt
+vim ~/.scripts/cmt
+cmt
+vim ~/.scripts/cmt
+cd
+cd .scripts
+mv cmt gt
+ls
+cmt "misc"
+cmt misc
+cd
+cd .scripts
+ls
+vim cmt
+zsh
+cd Repos/Keeper
+gt
+gt
+cd Repos/Keeper
+gt
+cd dot
+gt
+gt
+read -p "Enter : "
+bash

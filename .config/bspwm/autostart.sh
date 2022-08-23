@@ -13,8 +13,9 @@ sxhkd -c $HOME/.config/bspwm/sxhkdrc &
 picom --config $HOME/.config/bspwm/picom.conf --experimental-backends &
 
 #Set Wallpaper
-exec $HOME/.config/bspwm/scripts/background.sh &
+#exec $HOME/.config/bspwm/scripts/background.sh &
 #nitrogen --restore
+feh --bg-fill $HOME/Pictures/Backgrounds/background.jpg
 
 #Fix Cursor
 xsetroot -cursor_name left_ptr &
