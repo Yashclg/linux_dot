@@ -23,8 +23,8 @@ Insert
 	$HOME/.config/bspwm/scripts/background.sh
 
 # set the window state
-#super + {t,shift + t,s,f}
-	#bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+super + {t,shift + t,s,f}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 #Toogle Floating 
 super + shift + f
@@ -39,7 +39,7 @@ super + shift + equal
 	$HOME/.config/bspwm/scripts/gaps.sh
 
 super + shift + p
-	$HOME/.config/bspwm/scripts/alacritty.sh
+	$HOME/.config/bspwm/scripts/$TERMINAL.sh
 	
 # focus the node in the given direction
 super + {_,shift + }{h,j,k,l}
@@ -108,13 +108,13 @@ super + w
 	$BROWSER
 
 super + n
-    	alacritty -e nvim
+  $TERMINAL -e nvim
 
 super + m
-	alacritty -e ncmpcpp
+	$TERMINAL -e ncmpcpp
 
 super + o
-    	alacritty -e lf
+  $TERMINAL -e lf
 
 #Run Launchers
 super + space
@@ -125,17 +125,17 @@ super + shift + Return
 	
 # terminal emulator
 super + Return
-	alacritty
+	$TERMINAL
  
 # ScratchPads with tdrop
 super + p
-	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 1 alacritty -e htop
+	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 1 $TERMINAL -e htop
 
 super + r
-	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 2 alacritty -e lfub
+	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 2 $TERMINAL -e lfub
 
 super + c
-	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 3 alacritty -e tty-clock -c -s -t -B -C 7
+	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 3 $TERMINAL -e tty-clock -c -s -t -B -C 7
 
 super + y
-	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 2 alacritty
+	tdrop -ma -w 70% -h 65% -y 17% -x 15% -n 2 $TERMINAL

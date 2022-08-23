@@ -2365,3 +2365,232 @@ ls
 cd .config/zsh
 vim zsh-prompt
 vim .zshrc
+cd dot
+gt
+cd Repos/bspwm
+gt
+lfub
+vim .zshenv
+vim .config/zsh/lf-icons
+vim .config/zsh/.zshrc
+vim .zshenv
+reboot
+lf
+p10k configure
+cd .config/zsh
+cd
+cd .config/zsh
+p10k configure
+cd .config/zsh
+cd
+vim .config/zsh/zsh-prompt
+zsh
+cd .config/zsh
+vim zsh-prompt
+cd .config/zsh
+vim lf-icons
+rm lf-icons
+vim .zshenv
+vim .config/zsh/.zshrc
+reboot
+lfub
+reboot
+ls
+cd .config/lf
+ls
+ls
+ls
+cd .config
+ls
+cd lf
+ls
+vim lfrc
+touch temp
+lf
+ls
+rm temp
+paru -S bat
+lfub
+ls
+vim lfrc
+cd
+cd dot/.config
+ls
+rm -rf lf
+ls
+cd
+cd .scripts
+ls
+cd
+cd dot/.scripts
+rm -rf lfub
+cd
+cd dot/.config
+ls
+mkdir lf
+cd lf
+ls
+cd
+cd .config
+ls
+ls
+lfub
+lf
+cd dot
+ls
+cd .config
+ls
+cd lf
+ls
+ls
+touch lfrc
+ls
+ls
+rm lfrc
+cd .config/lf
+ls
+cd dot/.config/lf
+ls
+man lf
+man lf
+paru -S lf
+paru -S lf-bin
+lf
+ls
+ls
+man lf
+paru -S lf-bin
+whereis lf
+whereis lfrc
+ls
+paru -S ueberzug mpv bat sxiv inkscape libreoffice GraphicsMagick Ghostscipt ffmpeg
+cd .scripts
+ls
+cd dot/.config
+ls
+cd lf
+ls
+vim lfrc
+cd ..
+mkdir lf-ueberzug
+ls
+cd lf-ueberzug
+ls
+touch lfrc-ueberzug
+ls
+vim lfrc-ueberzug
+ls
+rm *
+ls
+cp ~/Downloads/git-things/lf-gadgets/lf-ueberzug/lfrc-ueberzug .
+ls
+vim lfrc-ueberzug
+ls
+cd
+cd .config
+ln -sf ~/dot/.config/lf-ueberzug .
+ls
+cd dot/.config/lf
+ls
+ls
+ls
+whereis lf
+whereis lfrc
+which lfrc
+paru -S mlocate
+sudo updatedb
+ls
+touch lfrc
+vim lfrc
+vim lfrc
+vim lfrc
+lfub
+lf
+vim lfrc
+lf
+vim lfrc
+lf
+ls
+ls
+vim lfrc
+ls
+ls
+vim lfrc
+cd
+lfub
+lf
+ls
+cd Downloads
+ls
+mkdir git-things
+cd git-things
+ls
+git clone https://github.com/slavistan/lf-gadgets.git
+ls
+cd lf-gadgets
+ls
+cd lf-ueberzug
+ls
+ls
+cp lf-* ~/.scripts
+lf-ueberzug
+./lf-ueberzug
+cd
+vim .config/zsh/zsh-aliases
+zsh
+lf
+lf
+cd
+cd .scripts
+ls
+./lf-ueberzug
+lfub
+lf
+cd .scripts
+ls
+zsh
+cd .config/zsh
+vim zsh-aliases
+lf-ueberzug
+lf
+sxiv
+lfub
+cd .config/zsh
+vim zsh-keymaps
+lf-ueberzug
+lf-ueberzug
+ls
+cd .scripts
+ls
+vim lf-ueberzug
+cp ~/Downloads/git-things/lf-gadgets/lf-ueberzug/examples .
+cp -r ~/Downloads/git-things/lf-gadgets/lf-ueberzug/examples .
+cd
+lf
+lf
+cd .config/zsh/
+vim zsh-aliases
+lf-ueberzug
+lf
+cd .config/zsh
+ls
+exit
+vim .zshenv
+cd .config
+ls
+cd lf-ueberzug
+ls
+vim lfrc-ueberzug
+cd
+cd .scripts
+ls
+vim lf-ueberzug-previewer
+cd .config/bspwm
+ls
+vim bspwmrc
+vim sxhkdrc
+cd .sc
+cd
+cd .scripts
+ls
+vim lf-ueberzug

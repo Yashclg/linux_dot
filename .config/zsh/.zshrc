@@ -11,7 +11,6 @@ source $ZDOTDIR/zsh-keymaps
 source $ZDOTDIR/zsh-prompt
 source $ZDOTDIR/zsh-aliases
 source $ZDOTDIR/zsh-vi-mode
-source $ZDOTDIR/lf-icons
 
 #Adding Plugins
 zsh_add_plugin "zsh-users/zsh-autosuggestions"
