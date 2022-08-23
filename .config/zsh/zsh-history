@@ -2309,3 +2309,59 @@ gt
 gt
 read -p "Enter : "
 bash
+cd dot
+gt
+cd .scripts
+vim gt
+paru -S shell-color-script
+paru -S shell-color-scripts
+vim .config/zsh/zsh-prompt
+man shell-color-scripts
+vim .config/zsh/zsh-prompt
+zsh
+cd .config/zsh/
+vim .zshrc
+zsh
+vim .config/zsh/zsh-prompt
+ls
+cd .config/zsh
+ls
+vim .p10k.zsh
+vim .zprofile
+vim .zshrc
+ls
+vim lf-icons
+ls
+vim zsh-aliases
+vim zsh-functions
+vim zsh-history
+vim history
+rm history
+vim zsh-settings
+vim zsh-settings
+ls
+vim zsh-keymaps
+vim zsh-prompt
+vim zsh-settings
+vim zsh-vi-mode
+cd plugins
+ls
+cd ..
+ls
+vim .zshrc
+ls
+vim zsh-prompt
+cd
+paru -Rcns neofetch
+ls
+vim .zsh
+vim .zshrc
+rm .zshrc .zshrc.bak
+ls
+vim .bashrc
+ls
+rm .bashrc.bak
+ls
+cd .config/zsh
+vim zsh-prompt
+vim .zshrc
