@@ -114,7 +114,7 @@ super + m
 	$TERMINAL -e ncmpcpp
 
 super + o
-  $TERMINAL -e lf
+  $TERMINAL -e ranger
 
 #Run Launchers
 super + space

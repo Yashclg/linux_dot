@@ -19,7 +19,7 @@ window:
     x: 10
     y: 10
   decorations: full
-  opacity: 0.75
+  opacity: 0.9
 
 # Scrolling
 scrolling:
@@ -44,13 +44,13 @@ draw_bold_text_with_bright_colors: true
 # Font Customization
 font:
   normal:
-    family: CaskaydiaCove Nerd Font
+    family: Hack Nerd Font
     style: Regular
   bold:
-    family: CaskaydiaCove Nerd Font
+    family: Hack Nerd Font
     style: Bold
   italic:
-    family: CaskaydiaCove Nerd Font
+    family: Hack Nerd Font
     style: Italic
   size: 7.5
   offset:

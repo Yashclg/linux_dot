@@ -1,5 +1,5 @@
 #General Key-bindings
-bindkey -s '^o' 'lf-ueberzug^M'
-# bindkey -s '^o' 'ranger^M'
+#bindkey -s '^o' 'lf-ueberzug^M'
+bindkey -s '^o' 'ranger^M'
 bindkey -s '^v' 'ncmpcpp^M'
 bindkey -s '^v' 'nvim .^M'

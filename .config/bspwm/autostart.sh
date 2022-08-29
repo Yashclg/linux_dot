@@ -24,7 +24,7 @@ xsetroot -cursor_name left_ptr &
 dunst -config $HOME/.config/bspwm/dunstrc &
 
 #Automounting
-udiskie &
+#udiskie &
 
 #For Hiding Cursor while typing
 xbanish &

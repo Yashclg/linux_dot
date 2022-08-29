@@ -2594,3 +2594,969 @@ cd
 cd .scripts
 ls
 vim lf-ueberzug
+cd dot 
+gt
+cd
+cd .scripts
+./lf-ueberzug
+cd .scripts
+ls
+./lf-ueberzug
+rm lf-ueberzug*
+ls
+cd .local
+ls
+mkdir bin
+ls
+cp ~/.scripts/lf-ueberzug* .
+ls
+cd .config/zsh
+vim zsh-aliases
+cd
+vim .zshenv
+lf-ueberzug
+lf
+cd .local/bin
+ls
+ls
+cd
+ls
+cd dot
+ls
+cd .scripts
+ls
+cd ..
+ls
+mkdir -p .local/bin
+ls
+cd .local/bin
+cp ~/Downloads/git-things/lf-gadgets/lf-ueberzug/lf-ueberzug* .
+ls
+cd
+cd .local/bin
+ls
+cd ..
+ls
+rm -rf bin
+ln -sf ~/dot/.local/bin .
+cd Downloads/git-things/lf-gadgets/lf-ueberzug
+ls
+lf-ueberzug
+lf
+cd .local/bin
+ls
+vim lf-ueberzug
+cd
+cd .local/bin
+ls
+cd
+cd .scripts
+ls
+mv nmd ~/.local/bin
+ls
+mv fm6000 ../.local/bin
+ls
+cd examples
+ls
+cd ..
+rm examples
+lf-ueberzug
+lf-ueberzug
+lf
+ls
+vim lf-ueberzug
+lf
+lf-ueberzug
+lf-ueberzug
+lf
+zsh
+cd .config
+lf
+cd Pictures
+lf-ueberzug
+lf
+lf
+vim lf-ueberzug
+vim lf-ueberzug
+lf
+zsh
+lf-ueberzug
+cd .
+cd .config
+cd .
+cd
+cd .local/share/
+ls
+cd ../bin
+vim lf-ueberzug
+lf-ueberzug
+lf-ueberzug
+lf-ueberzug
+lf-ueberzug
+vim lf-ueberzug
+paru -S plasma-meta
+paru -S plasma-wayland-session
+paru -S  kde-applications-meta 
+paru -S plasma-pa
+killall -q bspwm
+paru -Rcns whatsapp-for-linux
+ls
+ls
+paru -Syyu
+rebot
+reboot
+lsblk -f
+sudo fdisk /dev/nvme0n1
+lsblk -f
+sudo fdisk /dev/nvme0n1
+lsblk -f
+sudo mkswap /dev/nvme0n1p4
+swapon /dev/nvme0n1p4
+sudo swapon /dev/nvme0n1p4
+lsblk -f
+sudo fdisk /dev/nvme0n1
+sudo fdisk /dev/sda
+ls
+sudo genfstab -U /mnt >> /mnt/etc/fstab
+reboot
+lsblk -f
+cd /boot
+ls
+ls
+cd EFI
+ls
+cd arch
+ls
+vim grubx64.efi
+vim .zshenv
+cd
+vim .config/alacritty/alacritty.yml
+ls
+vim .config/alacritty/alacritty.yml
+ls
+ls
+ls
+cd
+cd .config/bspwm
+vim sxhkdrc
+ranger
+ranger
+ranger
+ranger
+ranger
+lf-ueberzug
+lf
+bash
+ls
+cd .config/bspwm
+ls
+vim sxhkdrc
+vim ../zsh/zsh-aliases
+vim ../zsh/zsh-keymaps
+ranger
+ranger
+cd dot/misc
+vim packages.sh
+paru -S ranger_devicons-git
+ranger
+ranger
+git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
+ranger
+cd .config/ranger
+ls
+vim rc.conf
+vim scope.sh
+vim scope.sh
+ls
+vim rc.conf
+paru -S spotify
+yay -S spotify
+paru -S spotify
+xprop
+ranger
+cd .config/bspwm
+ls
+vim bspwmrc
+cd .config/bspwm
+ls
+vim bspwmrc
+vim .config/bspwm/bspwmrc
+realmeBL
+java --veriosn
+java --version
+cd Repos
+ls
+git clone git@github.com:sadikeey/cp.git
+ls
+cd cp
+ls
+ls
+vim 01array.cpp
+ls
+rm *.cpp
+ls
+ls
+vim .git
+vim .gitignore
+ls
+ls
+ls
+ls
+ls
+touch BubbleSort.java
+vim BubbleSort.java
+vim BubbleSort.java
+rm BubbleSort.java
+ls
+code .
+paru -S jdk-openjdk
+java --version
+vim .zshenv
+paru -S eclipse-java
+javac BubbleSort.java
+java BubbleSort
+javac BubbleSort.java
+java BubbleSort
+javac BubbleSort.java
+java BubbleSort
+ /usr/bin/env /usr/lib/jvm/java-18-openjdk/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /home/sdk/.config/Code/User/workspaceStorage/fb9831bc6725d720c4809808953e78cb/redhat.java/jdt_ws/cp_aed06331/bin BubbleSort 
+javac BubbleSort.java && java BubbleSort
+javac BubbleSort.java && java BubbleSort
+reboot
+touch InsertionSort.java
+javac InsertionSort.java && java InsertionSort
+ls
+paru -Syyu
+cd Repos/Keeper
+code .
+cd Repos/Keeper
+code .
+cd Downloads
+git clone https://github.com/Baio1977/EFI-Hackintosh-collection/tree/main/EFI%20Laptop%20
+wget https://github.com/Baio1977/EFI-Hackintosh-collection/tree/main/EFI%20Laptop%20
+ls
+cd
+cd /tmp
+wget --help
+cd Downloads
+cd
+mkdir macOs
+cd macOs
+git clone https://github.com/Baio1977/EFI-Hackintosh-collection.git
+ls
+rm -rf *
+ls
+lsblk -f
+umount /dev/sdb1
+umount /dev/sdb1
+lsblk -f
+sudo etcher
+cd Downloads
+ls
+upzip 
+unzip EFI.Opencore.NoteBook.IceLake.zip
+ls
+cd EFI
+ls
+cd ..
+ls
+rm EFI 
+rm =rf EFI 
+rm -r EFI
+LS
+ls
+unzip EFI.Opencore.NoteBook.IceLake.zip
+ls
+rm -r __MACOSX/
+ls
+rm -r EFI 
+ls
+ls
+vim EFI\ Laptop\  
+rm EFI\ Laptop\  
+ls
+unzip EFI.Opencore.NoteBook.IceLake.zip
+ls
+lsblk -f
+cd /run/media/sdk
+ls
+ls
+ls
+lsblk -f
+lsblk -f
+ls
+cd Install\ macOS\ Catalina
+ls
+cd
+ls
+cd /run/media/sdk
+ls
+lsblk -f
+ls
+ls
+lsblk -F 
+lsblk -f 
+mkdir EFI
+sudo mkdir EFI
+sudo chown sdk:sdk EFI
+ls
+ls
+lsblk -f
+mount /dev/sdb1 EFI
+ls
+cd EFI
+ls
+ls
+cd EFI
+ls
+ranger
+ls
+cd ..
+ls
+cp -r EFI ~/Documents
+ls
+ls
+rm -rf *
+ls
+sudo rm -rf *
+ls
+ls
+sudo cp -r ~/Downloads/EFI .
+ls
+cd EFI
+ls
+reboot
+killall -q bspwm
+reboot
+sudo etcher 
+lsblk -f
+cd /run/media/sdk
+l
+ls
+cd
+mkdir mt
+mount /dev/sdb1 mt
+cd mt
+ls
+cd EFI
+ls
+ls
+rm .DS_Store
+ls
+cd
+ls
+umount /dev/sdb1
+l
+ls
+mount /dev/sdb1 mt
+ls
+sudo chown sdk:sdk mt
+ls
+sudo chown sdk:sdk mt
+cd mt
+ls
+sudo chown sdk:sdk EFI
+sudo su
+cd mt/EFI
+ls
+ls
+cd OC
+ls
+cd ..
+ls
+ls
+umount /dev/sdb2
+ls
+cd mt
+ls
+cd 
+umount /dev/sdb2
+lsblk -f
+mount /dev/sdb1 /run/media/sdk/EFI
+killall -q plasma5
+killall -q kwin
+cd macOs
+ls
+ls
+git clone https://github.com/corpnewt/ProperTree.git
+ls
+ls
+cp ~/Downloads/OpenCore-0.8.3-RELEASE.zip .
+ls
+unzip OpenCore-0.8.3-RELEASE.zip
+ls
+ls
+unzip --help
+ls
+rm -rf *
+ls
+cp ../Downloads/OpenCore-0.8.3-RELEASE.zip .
+ls
+unzip OpenCore-0.8.3-RELEASE.zip -o OpenCore
+ls
+ls
+unzip OpenCore-0.8.3-RELEASE.zip .
+ls
+unzip OpenCore-0.8.3-RELEASE.zip 
+ls
+rm OpenCore-0.8.3-RELEASE.zip
+ls
+mv * nvim .
+ls
+paru -S p7zip
+paru -S p7zip dolphin
+paru -S 7-zip
+paru -S gzip
+paru -S nautilus
+nmtui
+cd macOs/OpenCore/Utilities/macrecovery
+python3 ./macrecovery.py -b Mac-00BE6ED71E35EB86 -m 00000000000000000 download\
+
+lsblk
+wipefs /dev/sdb1
+sudo wipefs /dev/sdb1
+lsblk
+cd /run/media/sdk/ESD-ISO
+ls
+rm -rf *
+ls
+cd /run/media/sdk
+ls
+ls
+lsblk
+lsblk 
+cd macOs/OpenCore-0.8.3-RELEASE/Utilities/
+ls
+cd macrecovery
+ls
+python3 ./macrecovery.py -b Mac-00BE6ED71E35EB86 -m 00000000000000000 download\
+
+ls
+python3 ./macrecovery.py -b Mac-00BE6ED71E35EB86 -m 00000000000000000 download\
+
+cd
+cd ..
+cd 
+cd macOs
+ls
+rm -rf OpenCore-0.8.3-RELEASE
+unzip ../Downloads/OpenCore-0.8.3-RELEASE.zip .
+ls
+cp ../Downloads/OpenCore-0.8.3-RELEASE.zip .
+ls
+unzip OpenCore-0.8.3-RELEASE.zip OpenCore
+ls
+unzip OpenCore-0.8.3-RELEASE.zip OpenCore-0.8.3-RELEASE
+ls
+mkdir OpenCore
+ls
+unzip OpenCore-0.8.3-RELEASE.zip
+ls
+mv Docs IA32 Utilities X64 ./OpenCore
+ls
+rm OpenCore-0.8.3-RELEASE.zip 
+ls
+cd OpenCore
+ls
+cd Utilities
+cd macrecovery
+ls
+lsblk -f
+lsblk 
+umount /dev/sdb1
+ls
+ls
+lsblk 
+sudo gdisk /dev/sdb
+umount /dev/sdb1
+ls
+lsblk
+lsblk -f
+lsblk
+sudo gdisk /dev/sdb
+lsblk
+sudo mkfs.vfat -F 32 -n "OPENCORE" /dev/sdb1
+lsblk 
+lsblk 
+ls
+cp BaseSystem.dmg BaseSystem.chunklist /run/media/sdk/ESD-ISO
+cd macOs
+ls
+cd /run/media/sdk/ESD-ISO
+ls
+mkdir com.apple.recovery.boot
+ls
+cd com.apple.recovery.boot 
+sudo gdisk /dev/sdb
+systemctl disable udisks2
+reboot
+cd /run/media/sdk/ESD-ISO
+ls
+rm -rf BaseSystem.dmg
+ls
+cd
+cd macOs/OpenCore/Utilities/macrecovery
+ls
+cp BaseSystem.dmg BaseSystem.chunklist /run/media/sdk/ESD-ISO/com.apple.recovery.boot
+ls
+cd
+umount /dev/sdb1
+ls
+lsblk
+ls
+lsblk
+systemctl stop udiskie
+systemctl stop udisks
+systemctl stop udisk2
+systemctl --help
+systemctl stop udisks2
+umount /dev/sdb1
+lsblk 
+cd .config/bspwm
+ls
+vim autostart.sh
+lsblk -f
+umount /dev/sdb1
+ls
+udisksctl mount -b /dev/sdb1
+cd /run/media/sdk/OPENCORE
+ls
+mkdir com.apple.recovery.boot
+ls
+sudo mkfs.vfat -F 32 -n "OPENCORE" /dev/sdb1
+cp macOs/OpenCore/Utilities/macrecovery/BaseSystem.dmg macOs/OpenCore/Utilities/macrecovery/BaseSystem.chunklist /run/media/sdk/OPENCORE/com.apple.recovery.boot
+paru -S dmg2img
+cd /run/media/sdk/OPENCORE/com.apple.recovery.boot
+ls
+rm BaseSystem.dmg
+ls
+lsblk
+cd macOs/OpenCore/Utilities/macrecovery
+ls
+dmg2img -l BaseSystem.dmg
+sudo dmg2img -p 4 BaseSystem.dmg /dev/sdb2
+cd Downloads
+ls
+cp OpenCore-0.8.3-RELEASE.zip ../Documents
+ls
+cd
+cd Documents
+ls
+unzip OpenCore-0.8.3-RELEASE.zip
+ls
+ls
+cd X64/EFI
+ls
+cd OC
+ls
+cd Drivers
+ls
+cp OpenRuntime.efi /run/media/sdk/OPENCORE/EFI/OC/Drivers
+cd ../Tools
+ls
+ls
+ls
+cp OpenRuntime.efi /run/media/sdk/OPENCORE/EFI/OC/Tools
+cp OpenRuntime.efi /run/media/sdk/OPENCORE/EFI/OC/Tools/
+ls
+ls
+cd macOs/OpenCore/X64
+ls
+cp -r EFI /run/media/sdk/OPENCORE
+cd
+cd /run/media/sdk/OPENCORE
+ls
+rm -rf com.apple.recovery.boot
+ls
+cd EFI
+ls
+ls
+ls BOOT/
+ls
+cd OC
+ls
+ls
+ls
+cd Drivers
+ls
+ls
+rm *
+ls
+ls
+cd ..
+ls
+cd Tools
+ls
+ls
+rm *
+ls
+ls
+cd ../Drivers
+ls
+ls
+wget https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi
+ls
+ls
+cd ../Kexts
+ls
+ls
+ls
+wget https://github.com/acidanthera/Lilu/releases/download/1.6.2/Lilu-1.6.2-RELEASE.zip
+ls
+unzip Lilu-1.6.2-RELEASE.zip
+ls
+rm Lilu-1.6.2-RELEASE.zip
+ls
+rm Lilu.kext.dSYM
+rm -rf Lilu.kext.dSYM
+ls
+cd Lilu.kext
+ls
+cd Contents
+ls
+cd MacOS
+ls
+cd ../../../
+ls
+wget https://github.com/acidanthera/Lilu/releases
+ls
+rm releases
+ls
+ls
+cd Lilu.kext/Contents/MacOS
+ls
+cp Lilu ../../../
+cd ../../../
+ls
+rm *
+ls
+rm -rf Lilu.kext
+cd Downloads
+wget https://github.com/acidanthera/Lilu/releases/download/1.6.2/Lilu-1.6.2-RELEASE.zip
+wget https://github.com/acidanthera/VirtualSMC/releases/download/1.3.0/VirtualSMC-1.3.0-RELEASE.zip
+cd Downloads
+ls
+wget https://github.com/acidanthera/WhateverGreen/releases/download/1.6.1/WhateverGreen-1.6.1-RELEASE.zip
+wget https://github.com/acidanthera/AppleALC/releases/download/1.7.4/AppleALC-1.7.4-RELEASE.zip
+dmesg | grep -i input
+sudo dmesg | grep -i input
+grep -i "model name" /proc/cpuinfo
+lspci | grep -i --color "vga\|3d\|2d"
+dmidecode -t baseboard
+sudo dmidecode -t baseboard
+dmidecode -t baseboard
+sudo dmidecode -t baseboard
+cd Downloads
+ls
+wget https://github.com/KernelWanderers/OCSysInfo/releases/download/v1.0.7/ocsysinfo_linux_x86_64
+./ocsysinfo_linux_x86_64
+sudo ./ocsysinfo_linux_x86_64
+ls
+cd Downloads
+ls
+./ocsysinfo_linux_x86_64
+cd Downloads
+ls
+rm ocsysinfo_linux_x86_64
+git clone https://github.com/KernelWanderers/OCSysInfo.git\
+
+cd OCSysInfo
+python3 -m pip install -r requirements.txt\
+
+paru -S python3-pip
+paru -S python-pip
+paru -S pip-python3
+paru -S python3 -m pip install -r requirements.txt\
+
+paru -S python-pip
+python3 -m pip install -r requirements.txt\
+
+python3 main.py
+sudo python3 main.py
+cd
+vim .config/alacritty/alacritty.yml
+cd Downloads
+ls
+wget https://github.com/KernelWanderers/OCSysInfo/releases/download/v1.0.7/ocsysinfo_linux_x86_64
+rm -rf OCSysInfo/
+python3 ocsysinfo_linux_x86_64
+sudo python3 ocsysinfo_linux_x86_64
+cd Downloads
+ls
+git clone https://github.com/KernelWanderers/OCSysInfo.git\
+
+cd OCSysInfo
+sudo python3 -m pip install -r requirements.txt
+ls
+python3 main.py
+sudo python3 main.py
+dmesg | grep -i input
+sudo dmesg | grep -i input
+sudo dmesg | grep -i input
+sudo dmesg | grep -i input -o info.txt
+touch info.txt
+sudo dmesg | grep -i input -o info.txt
+vim info.txt
+sudo dmesg | grep -i 
+dmesg --help
+dmesg
+sudo dmesg
+sudo dmesg | grep -input
+sudo dmesg | grep -i input
+sudo dmesg | grep input
+xinput --list
+cd Downloads
+git clone https://github.com/corpnewt/ProperTree\
+
+cd Downloads
+wget https://github.com/acidanthera/VoodooPS2/releases/download/2.2.9/VoodooPS2Controller-2.2.9-RELEASE.zip
+cd
+cd /run/media/sdk/OPENCORE/EFI/OC/ACPI
+ls
+wget https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-PLUG-DRTNIA.aml
+ls
+ls
+wget https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-USBX-LAPTOP.aml
+wget https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-AWAC.aml
+wget https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-RHUB.aml
+wget https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-PNLF.aml
+wget https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-XOSI.aml
+ls
+cd ../../
+cd ..
+ls
+cd EFI/OC
+ls
+rm .contentFlavour
+ls
+wget https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Sample.plist
+ls
+mv Sample.plist config.plist
+ls
+cd Downloads
+ls
+cd ProperTree
+ls
+python3 ./ProperTree.py
+sudo python3 ./ProperTree.py
+pip install tkinter
+sudo pip install tkinter
+paru -S tkinter
+paru -S  python-awesometkinter
+sudo python3 ./ProperTree.py
+python3 ./ProperTree.py
+cd /run/media/sdk/OPENCORE/EFI/OC
+vim config.plist
+cd Downloads
+ls
+rm *.zip
+ls
+ls
+cd /run/media/sdk/OPENCORE/EFI/OC
+ls
+rm config.plist
+reboot
+cd Downloads
+git clone git clone https://github.com/corpnewt/GenSMBIOS\
+
+git clone https://github.com/corpnewt/GenSMBIOS\
+
+cd GenSMBIOS
+chmod +x GenSMBIOS.command
+./GenSMBIOS.command
+./GenSMBIOS.command
+nvim .
+aplay -l
+cd Downloads
+ls
+cd ProperTree
+ls
+python3 ./ProperTree.py
+cd Downloads/ProperTree
+ls
+./ProperTree.command
+lsblk -f
+udisksctl mount -b /dev/sdb1
+cd Downloads/ProperTree
+python3 ./ProperTree.py
+udisksctl mount -b /dev/sdb1
+lsblk -f
+lsblk -f
+lsblk -f
+udisksctl mount -b /dev/sdb1
+lsblk -f
+udisksctl mount -b /dev/sdc1
+udisksctl mount -b /dev/sdc1
+ls
+lsblk -f
+udisksctl mount -b /dev/sdc1
+lsblk -f
+umount /dev/sdc2
+cd /run/media/sdk/EFI
+ls
+cd EFI
+ls
+cd ..
+ls
+ls
+cd EFI
+ls
+cd BOOT
+ls
+cd ..
+ls
+cd ..
+ls
+rm -rf  EFI
+ls
+cp -r ../OPENCORE/EFI .
+ls
+reboot
+paru -Syyu
+nmtui
+nmtui
+nmtui
+reboot
+paru -R firefox brave-bin
+reboot
+ls
+ls
+ls -lah
+echo $SHELL
+ls
+ls -lah
+cd .config
+ls
+ls -lah
+cd zsh/
+ls
+vim zsh-aliases 
+cd 
+cd .config/bspwm
+ls
+./install.sh 
+cd
+git clone https://aur.archlinux.org/paru-bin.git
+cd paru-bin
+makepkg -si
+cd
+cd .config/bspwm
+ls
+./install.sh
+./install.sh
+exit
+cd .config/alacritty
+ls
+vim alacritty.yml
+ls
+rm alacritty.yml.bak
+ls
+cd
+ls
+rm info.txt
+ls
+paru -S sddm
+cd .config/dmenu
+smci
+paru -S sddm
+paru -Syyu
+paru -S sddm
+ls
+nmtui
+ls
+ls
+cd ../ns
+cd ../bspwm
+ls
+vim polybar/modules.ini
+vim .config/bspwm/install.sh
+paru -S google-chrome
+paru -S shell-color-scripts
+ls
+cd dot/misc
+ls
+cd etc-X11-xorg.conf.d
+ls
+vim 00-keyboard.conf
+cd /etc/X11/xorg.conf.d
+ls
+vim 00-keyboard.conf
+paru -S xorg
+cd /etc/X11/xorg.conf.d
+ls
+rm 00-keyboard.conf
+sudo rm 00-keyboard.conf
+ls
+cp ~/dot/misc/etc-X11-xorg.conf.d/* .
+sudo cp ~/dot/misc/etc-X11-xorg.conf.d/* .
+ls
+vim 20-intel.conf
+paru -S xorg
+cd dot/misc
+ls
+cd etc-X11-xorg.conf.d
+killall -q bspwm
+exit
+reboot
+exit
+ls
+sddm
+ls
+exec bspwm
+ls
+cd .config/zsh/
+ls
+ls
+vim .zprofile 
+cd ../X11
+ls
+startx xinitrc
+cd .local/share
+pwd
+zsh
+cd
+reboot
+ls
+ccd
+cd
+cd .config/zsh
+ls
+vim .zshrc
+ls
+vim zsh-prompt 
+zsh
+paru -S bspwm
+ls
+paru -S bspwm
+systemctl disable gdm
+paru -S plasma-meta
+reboot
+systemctl enable sddm
+reboot
+vim /etc/pacman.d/mirrorlist
+cd /etc/pacman.d/
+ls
+rm mirrorlist
+ls
+sudo rm mirrorlist
+cp ~/dot/misc/mirrorlist/mirrorlist .
+sudo cp ~/dot/misc/mirrorlist/mirrorlist .
+ls
+paru -Syyu
+systemctl disable sddm
+systemctl enable gdm
+reboot
+paru -S lightdm
+systemctl disable gdm
+systemctl enable lightdm
+systemctl enable lightdm
+reboot
+yay -S paru-bin
+sudo pacman -S base-devel git
+git clone https://aur.archlinux.org/paru-bin.git
+cd
+cd paru-bin
+ls
+makepkg -si
+cd
+paru -S shell-color-scripts
